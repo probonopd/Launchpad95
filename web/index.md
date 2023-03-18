@@ -435,6 +435,14 @@ Holding down the respective button as mentioned above will change the last row o
 
 The active selection will light up brighter.
 
+Check the status bar at the bottom of the screen in Ableton Live. It will show the meaning of each pad when pressed.
+
+For example, for __clip fixed length recording__:
+
+|![](https://placehold.co/64x64/green/green)|![](https://placehold.co/64x64/orange/orange)|![](https://placehold.co/64x64/orange/orange)|![](https://placehold.co/64x64/yellow/yellow)|![](https://placehold.co/64x64/yellow/yellow)|![](https://placehold.co/64x64/yellow/yellow)|![](https://placehold.co/64x64/yellow/yellow)|![](https://placehold.co/64x64/yellow/yellow)|![](https://placehold.co/64x64/black/red?text=>+Record+Arm)|
+|---|---|---|---|---|---|---|---|---|
+|on/off|decrease|increase|1 Beat|1 Bar|2 Bars|4 Bars|8 Bars|Record Arm|
+
 #### Metronome and Tempo
 
 |![](https://placehold.co/64x64/green/green)|![](https://placehold.co/64x64/orange/orange)|![](https://placehold.co/64x64/orange/orange)|![](https://placehold.co/64x64/red/red)|![](https://placehold.co/64x64/red/red)|![](https://placehold.co/64x64/red/red)|![](https://placehold.co/64x64/red/red)|![](https://placehold.co/64x64/red/red)|![](https://placehold.co/64x64/black/red?text=>+Record+Arm)|
