@@ -330,6 +330,8 @@ You can save up to 4 devices using the 4 bottom scene button. if not device is s
 
 ### Session Mode
 
+To enter Session Mode, press ![](https://placehold.co/64x64/green/white?text=Session) once. The buttons on the right-hand side remain dark.
+
 |scenes up|senes down|tracks left|tracks right|Session mode|user 1 Inst.|user 2 step|mixer mode|   |
 |---|---|---|---|---|---|---|---|---|
 |   |   |   |   |   |   |   |   |__Undo__|
@@ -342,6 +344,8 @@ You can save up to 4 devices using the 4 bottom scene button. if not device is s
 |   |   |   |   |   |   |   |   |__Record Arm__|
 
 ### Pro Session Mode
+
+To enter Session Mode, press ![](https://placehold.co/64x64/green/white?text=Session) again. The buttons on the right-hand become illuminated.
 
 This mode adds functions to the classic Session Mode. To activate Pro Session Mode, press and release Session button (mode button remains amber). Repat to back to normal Session Mode.
 
