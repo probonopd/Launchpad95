@@ -441,7 +441,7 @@ The active selection will light up brighter.
 |---|---|---|---|---|---|---|---|---|
 |on/off|nudge left|nudge right|-5|-1|+1|+5|tap|Record Arm|
 
-The active selection will light up brighter.
+-5 and +5 will light up brighter.
 
 #### Mute, Solo, Arm
 
