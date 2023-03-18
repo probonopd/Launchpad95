@@ -7,19 +7,15 @@ Controller and Device Controller and an improved Instrument Mode. It
 does not require any external tool like Max for Live (M4L) in order to
 work. This script is just a plain Live Control Surface Python Script.
 
-Comment, feedback and updates: please check this thread on Ableton
-forum <http://forum.ableton.com/viewtopic.php?f=1&t=168495>
-
-Willing to make a donation?
-[paypal](https://www.paypal.com/us/cgi-bin/webscr?cmd=_send-money&nav=1&email=hdavid@mail.com)
-to my account
-[hdavid@mail.com](https://www.paypal.com/us/cgi-bin/webscr?cmd=_send-money&nav=1&email=hdavid@mail.com).
+> __Note__: Launchpad95 derives from Ableton Live 9.2 scripts. Would it be beneficial to recreate this from Ableton Live 11 scripts for RGB Launchpad and/or Push models, to get a more native user experience (e.g., matching what is printed on the buttons more to the functions performed by the software)?
 
 ## Installation
 
 ### Supported Hardware and Software
 
 Ableton Live 9.2 or greater, 10 and 11 are supported.
+
+> __Note__: Ableton Live 11 introduced support for MIDI Polyphonic Expression (MPE). However, at this point, Launchpad95 does not support MPE. Is it still possible to use [Polyphonic aftertouch like on the Push](https://www.youtube-nocookie.com/embed/m2KW_yahgYE)?
 
 In terms of hardware the following are supported:
 
