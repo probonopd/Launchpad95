@@ -157,6 +157,32 @@ If quick scale is activated (last button on the right on the 2nd row in scale ed
 
 This shows the two first rows of the Launchpad. The last button of the first row changes between root note selection and mode selection.
 
+#### Root note
+
+In this mode you can select the root note of your scale. You can also quickly alternate between minor and major by pressing the button again.
+
+|prev scene|next scene|prev track|next track|Session mode|user 1 Inst.|user 2 step|mixer mode|   |
+|---|---|---|---|---|---|---|---|---|
+|C#|D#|relative scale|F#|G#|A#|5th left|scale/mode toggle|__enter scale edition mode__|
+|C|D|E|F|G|A|B|5th right|__undo. long press to redo__|
+
+#### Quick scale modes: modus
+
+|prev scene|next scene|prev track|next track|Session mode|user 1 Inst.|user 2 step|mixer mode|   |
+|---|---|---|---|---|---|---|---|---|
+|Major|Minor|Dorian|Mixolyd.|Lydian|Phrygian|Locrian|scale / mode toggle|__enter scale edition mode__|
+|Diminish.|Minor Blues|Harmonic Minor|Melodic Minor|Super Locrian|Hunga. Minor|Minor Gypsy|Spanish|__undo. long press to redo__|
+
+In this mode you can select the mode of your scale.
+
+#### Note repeat
+
+In this mode you can activate and configure note repeat.
+
+|prev scene|next scene|prev track|next track|Session mode|user 1 Inst.|user 2 step|mixer mode|   |
+|---|---|---|---|---|---|---|---|---|
+|Swing +2.5%|Swing -2.5%|Swing 0%|Swing 25%|Swing 50%|Swing 75%|Repeat On/Off|Scale / mode toggle|__enter scale edition mode__|
+|1/4|1/4T|1/8|1/8T|1/16|1/16T|1/32|1/32T|__undo. long press to redo__|
 
 ### Editing parameters 
 
