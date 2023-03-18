@@ -10,7 +10,7 @@ work. This script is just a plain Live Control Surface Python Script.
 Comment, feedback and updates: please check this thread on Ableton
 forum <http://forum.ableton.com/viewtopic.php?f=1&t=168495>
 
-Willing to make a donation ?
+Willing to make a donation?
 [paypal](https://www.paypal.com/us/cgi-bin/webscr?cmd=_send-money&nav=1&email=hdavid@mail.com)
 to my account
 [hdavid@mail.com](https://www.paypal.com/us/cgi-bin/webscr?cmd=_send-money&nav=1&email=hdavid@mail.com).
@@ -88,9 +88,9 @@ type of mode (major, minor etc), and the octave you play in.
 
 Most of the scene buttons have alternate functions when you hold them
 long (0.5 sec):  
-- undo: a long press will perform a redo !  
+- undo: a long press will perform a redo!  
 - stop: a long press will DELETE currently selected clip. No worries
-this is undoable !  
+this is undoable!  
 - solo: a long press on solo will enable/disable the selected track.  
 - arm: holding arm for more than 0.5 seconds will toggle live's
 metronome. A very long press (2 sec) will alternate between auto arm of
@@ -424,33 +424,33 @@ screenshots.
 - on a pc like that:
 <img src="setup-folder-9-win.png" style="margin:10px" />  
 
-5\. It does not work, I installed everything, but the launchpad does not light up when I select Launchpad95 in the dropdown in the preferences. what is wrong ?  
+5\. It does not work, I installed everything, but the launchpad does not light up when I select Launchpad95 in the dropdown in the preferences. what is wrong?  
 It is hard to guess what you did wrong. You must have installed not the
 right way somehow. Try to install it from scratch again, download from
 this site, extract install, restart live. Among the list of things you
 can try to do:
 
 - \- check the you installed at the right place. (check [question
-  \#3](#faq-3) and [question \#4](#faq-4) !)
+  \#3](#faq-3) and [question \#4](#faq-4)!)
 - \- Pay attention to the folder name AND its full path. (again see
   screenshots in above in [question \#3](#faq-3) [question \#4](#faq-4))
-- \- how many versions of live do you have installed ?
-- \- are you running live 9.2 or greater ? for live 8 please use
+- \- how many versions of live do you have installed?
+- \- are you running live 9.2 or greater? for live 8 please use
   launchpad85. For live 9.0, upgrade to live 9.2+.
 
-6\. It does not work, I installed everything, but Launchpad95 does not appears the dropdown in the preferences. what is wrong ?  
+6\. It does not work, I installed everything, but Launchpad95 does not appears the dropdown in the preferences. what is wrong?  
 See [question 5](#faq-5).  
   
 7\. Note Feedback is not working in Instrument Controller  
 Make sure you activated the launchapd midi in/out as "track" in Live
 midi preferences.  
 
-8\. Live 8 ?  
+8\. Live 8?  
 For Live 8.4: [Launchpad85](launchpad85.html).
 
-9\. good work ! I wish to donate ! is there a way to donate somehow ?  
-Sure ! Your donations allowed me to pay for the Launchpad Pro that is
-now supported ! thank you for this.  
+9\. good work! I wish to donate! is there a way to donate somehow?  
+Sure! Your donations allowed me to pay for the Launchpad Pro that is
+now supported! thank you for this.  
 [paypal](https://www.paypal.com/us/cgi-bin/webscr?cmd=_send-money&nav=1&email=hdavid@mail.com)
 to my account hdavid@mail.com.
 
@@ -473,7 +473,7 @@ to my account hdavid@mail.com.
 - 2020-01-12 - user customisable mixer volume slider values
 - 2019-11-02 - support for Launchpad Mini MK3 and Launchpad X
 - 2019-08-26 - documentation fixes. duplicate clip now does not fire it.
-- 2017-04-01 - note repeater ! (sub mode of quick scale mode)
+- 2017-04-01 - note repeater! (sub mode of quick scale mode)
   contribution from Pablo Torres.
 - 2016-04-09 - small fixes for mk2. skin improvements
 - 2016-03-28 - Launchpad MK2 RGB autodetect. better skinning. merging
@@ -492,9 +492,9 @@ to my account hdavid@mail.com.
   Settings.py
 - 2015-01-14 - add: added option to add stop buttons at bottom of
   session (MainSelectorComponent.py:39)
-- 2015-01-14 - fix: minor cleanup and bugfixes !
-- 2014-12-06 - fix: minor cleanup and bugfixes !
-- 2014-10-03 - change: revamped device controller !
+- 2015-01-14 - fix: minor cleanup and bugfixes!
+- 2014-12-06 - fix: minor cleanup and bugfixes!
+- 2014-10-03 - change: revamped device controller!
 - 2014-09-16 - change: minor fixes in melodic stepseq.
 - 2014-07-14 - change: double pressing mute button in stepseq holds
   shift.
@@ -508,8 +508,8 @@ to my account hdavid@mail.com.
 - 2014-03-12 - fix: compatibility with max4live in user mode 2. fix midi
   channels for some modes. add: duplicate clip in step seq (hold lock
   button for 0.5sec).
-- 2014-02-27 - major update !  
-      - new melodic step seq !  
+- 2014-02-27 - major update!  
+      - new melodic step seq!  
       - preview of notes in combined step seq (hold 7th scene button and
   play on the note selector in the lower left corner of the matrix)  
       - quick scale in instrument mode to quickly change scale while
@@ -519,7 +519,7 @@ to my account hdavid@mail.com.
 - 2014-01-06 - add: diatonic 3rd and sequent and guitar chromatic modes.
   fix: implicit arm. change: updated documentation
 - 2014-01-06 - fix: track locking in step seq
-- 2013-12-16 - fix: led feedback in instrument mode !
+- 2013-12-16 - fix: led feedback in instrument mode!
 - 2013-12-11 - add: improve integration with launchpad95Colour.
 - 2013-12-07 - change: change scale colour. minor bugfix.
 - 2013-11-18 - fix: improve stepseq lock to a track mode.
