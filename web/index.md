@@ -72,7 +72,9 @@ PDF](Manual_%20Launchpad95_FR.pdf), thanks to François Lehérissier.
 
 To activate Instrument Controller Mode, press ![](https://placehold.co/64x64/black/lightblue?text=Note) (mode button remains light blue).
 Press ![](https://placehold.co/64x64/black/lightblue?text=Note) once again, button turns purple, activating the
-Device Controller. 
+Device Controller.
+
+Depending on which mode was selected last, the Note button will stay either light blue ![](https://placehold.co/64x64/black/lightblue?text=Note) or purple ![](https://placehold.co/64x64/black/purple?text=Note), even when other modes are selected.
 
 > __Note__: Original documentation said "Once more the button will turn red, activating the
 plain old User Mode 1 in case you need it." But that mode is disabled by default.
@@ -284,6 +286,12 @@ Double press on the last scene button toggles between monophonic and polyphonic 
 * __user 2 step__: Cycle thru StepSequencers and User Mode 2
 
 ### Device Controller Mode
+
+To activate Device Controller Mode, press ![](https://placehold.co/64x64/black/lightblue?text=Note) (mode button remains light blue).
+Press ![](https://placehold.co/64x64/black/lightblue?text=Note) once again, button turns purple, activating the
+Device Controller.
+
+Depending on which mode was selected last, the Note button will stay either light blue ![](https://placehold.co/64x64/black/lightblue?text=Note) or purple ![](https://placehold.co/64x64/black/purple?text=Note), even when other modes are selected.
 
 ### Navigation
 
