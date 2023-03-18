@@ -70,9 +70,9 @@ effect or device on any track of your arrangement, and finally an
 Note the manual is also available in [french as a
 PDF](Manual_%20Launchpad95_FR.pdf), thanks to François Lehérissier.
 
-### Instrument Controller Mode
+### Instrument Mode
 
-To activate Instrument Controller Mode, press ![](https://placehold.co/64x64/black/lightblue?text=Note) (mode button remains light blue).
+To activate Instrument Mode, press ![](https://placehold.co/64x64/black/lightblue?text=Note) (mode button remains light blue).
 Press ![](https://placehold.co/64x64/black/lightblue?text=Note) once again, button turns purple, activating the
 Device Controller.
 
