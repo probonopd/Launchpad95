@@ -71,7 +71,7 @@ PDF](Manual_%20Launchpad95_FR.pdf), thanks to François Lehérissier.
 ### Instrument Controller Mode
 
 Instrument Mode replaces classic User Mode 1. To activate Instrument
-Controller Mode, press User Mode 1 button (mode button remains amber).
+Controller Mode, press ![](https://placehold.co/64x64/black/lightblue?text=Note) (mode button remains light blue).
 Press User Mode 1 button once again, button turns green, activating the
 Device Controller. Once more the button will turn red, activating the
 plain old User Mode 1 in case you need it.
@@ -97,7 +97,7 @@ track and manual track arming. Colour of the button will reflect the
 selected mode. This is really useful if you have more than one
 controller/person interacting with Live.
 
-|![](https://placehold.co/64x64/black/green?text=^)<br>prev scene|![](https://placehold.co/64x64/black/green?text=V)<br>next scene|![](https://placehold.co/64x64/black/green?text=<)<br>prev track|![](https://placehold.co/64x64/black/green?text=>)<br>next track|![](https://placehold.co/64x64/black/green?text=Session)<br>Session mode|![](https://placehold.co/64x64/black/purple?text=Note)<br>user 1 Inst.|![](https://placehold.co/64x64/black/orange?text=Custom)<br>user 2 step|![](https://placehold.co/64x64/black/turquoise?text=Capture+MIDI)<br>mixer mode|   |
+|![](https://placehold.co/64x64/black/green?text=^)<br>prev scene|![](https://placehold.co/64x64/black/green?text=V)<br>next scene|![](https://placehold.co/64x64/black/green?text=<)<br>prev track|![](https://placehold.co/64x64/black/green?text=>)<br>next track|![](https://placehold.co/64x64/black/green?text=Session)<br>Session mode|![](https://placehold.co/64x64/black/lightblue?text=Note)<br>user 1 Inst.|![](https://placehold.co/64x64/black/orange?text=Custom)<br>user 2 step|![](https://placehold.co/64x64/black/turquoise?text=Capture+MIDI)<br>mixer mode|   |
 |---|---|---|---|---|---|---|---|---|
 |   |   |   |   |   |   |   |   |![](https://placehold.co/64x64?text=>+Volume)<br>__enter scale edition mode__|
 |   |   |   |   |   |   |   |   |![](https://placehold.co/64x64?text=>+Pan)<br>__undo. long press to redo__|
