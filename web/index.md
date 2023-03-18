@@ -294,11 +294,10 @@ Navigation among tracks and devices is done using the top left navigation button
 You can edit eight parameters of the selected device on the selected track at once. One parameter per column. You can navigate banks of parameters using scene buttons 2 and 3. depending on the type of parameter edited launchpad will display then in different ways.
 
 * __On/Off parameters__:
-Using the color code red. only one button will be used to change the
-parameter.
+Using the color code yellow ![](https://placehold.co/24x24/yellow/yellow). Top pad means ON, bottom pad means OFF.
 
 * __Parameter with list of values__: 
-For the parameters that have a list of values, the colour code it amber,
+For the parameters that have a list of values, the colour code is green ![](https://placehold.co/24x24/green/green),
 for example a Synth wave form selector (square, sine, triangle). If the
 parameter has less that 8 values, they will be directly acessible one by
 one. if more values are available, you can scroll thru the values. the
@@ -308,7 +307,7 @@ press.
 
 * __Parameter continuous values__: 
 For the parameters that have a continuous value, like Volume, Panning,
-etc, the colour code is green. by default Launchpad displays the
+etc, the colour code is purple ![](https://placehold.co/24x24/purple/purple). by default Launchpad displays the
 parameter like a volume slider on the mixer mode. if you activate the
 precision slider mode (by pressing scene 4 button), the sliders will
 then work in the similar way to the case of parameter with list of
