@@ -395,7 +395,7 @@ The scene buttons allow you to perform several functions as shown below:
   * Shift + Tempo + Matrix: Launch scene
   * Tempo + Last Row: Tempo
 * ![](https://placehold.co/64x64/black/orange?text=>+Send+B) __Quant. RecQ__
-  * Double click: Record Quantization ON/OFF
+  * Double click: Record Quantization ON/OFF. When Record Quantization is ON, the key is illuminated more brightly.
   * Quantize + Matrix: Quantizes clip
   * Shift + Quantize + Matrix: Create new Scene
   * Quantize + Last Row: record quantizatin
