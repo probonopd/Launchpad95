@@ -109,7 +109,7 @@ controller/person interacting with Live.
 |   |   |   |   |   |   |   |   |solo current track|
 |   |   |   |   |   |   |   |   |session record|
 
-#### scale edition mode
+#### Scale edition mode
 
 To enter scale edition mode press (and keep pressed) the 1st scene
 button from Instrument mode.
@@ -125,63 +125,47 @@ button from Instrument mode.
 |Bhairav|Hunga. Minor|Minor Gypsy|Hirojoshi|In-Sen|Iwato|Kumoi|Pelog|solo current track|
 |Spanish|IonEol|   |   |   |   |   |   |session record|
 
-Orient  
-this button will change the orientation from vertical to horizontal of
+* __Orient__: this button will change the orientation from vertical to horizontal of
 the instrument mode.
-
-Absolute root  
-the bottom left left button will always be the root mode of the selected
+* __Absolute root__: The bottom left left button will always be the root mode of the selected
 root note.
-
-Chromatic Guitar  
-Scale Mode is pretty much like regular chromatic mode, except the top
+* __Chromatic Guitar__: Scale Mode is pretty much like regular chromatic mode, except the top
 four rows are all shifted by one semitone. This is so that the bottom 6
 rows emulate standard guitar tuning.
-
-Diatonic sequent  
-each row represents an octave, so each first and last button of each row
+* __Diatonic sequent__: Each row represents an octave, so each first and last button of each row
 will be the root note.
-
-Diatonic 3rd  
-when moving from one button to the next top, you will move a 3rd degree
+* __Diatonic 3rd__: When moving from one button to the next top, you will move a 3rd degree
 in the scale. 3rd is very practical to play chords vertically.
-
-Diatonic 4th  
-when moving from one button to the next top, you will move a 4th degree
+* __Diatonic 4th__: When moving from one button to the next top, you will move a 4th degree
 in the scale. 4th is the default mode, also on the push.
-
-Chromatic  
-each button to the left or right of a button will be a semitone lower or
+* __Chromatic__: Each button to the left or right of a button will be a semitone lower or
 higher.
-
-C, C#, D, D#, E, F, F#, G, G#, A, A#, B  
-selects the root note of the scale.
-
-Relative scale  
-changes current selected scale to its relative scale. IE. from C major
-to C minor and viceversa.
-
-5th left  
-changes current selected scale to the prior scale in the circle of
+* __C, C#, D, D#, E, F, F#, G, G#, A, A#, B__: Selects the root note of the scale.
+* __Relative scale__: Changes current selected scale to its relative scale. IE. from C major
+to C minor and vice versa.
+* __5th left__: Changes current selected scale to the prior scale in the circle of
 fifths (a 5th lower).
-
-5th right  
-changes current selected scale to the next scale in the circle of fifths
+* __5th right__: Changes current selected scale to the next scale in the circle of fifths
 (a 5th higher).
-
-Quick scale mode  
-substitutes the top 2 rows of instrument mode for the quick scale modes
+* __Quick scale mode__: Substitutes the top 2 rows of instrument mode for the quick scale modes
 (see below).
+* __-2, -1, 0, 1, 2, 3, 4, 5__: Changes the octave of the instrument mode.
 
--2, -1, 0, 1, 2, 3, 4, 5  
-changes the octave of the instrument mode.
+#### Quick scale modes
 
-On/Off parameters  
-using the color code red. only one button will be used to change the
-parameter
+If quick scale is activated (last button on the right on the 2nd row in scale edit mode), the two first rows of the launchpad allow you to quickly change the scale.
 
-Parameter with list of values  
-for the parameters that have a list of values, the colour code it amber,
+This shows the two first rows of the Launchpad. The last button of the first row changes between root note selection and mode selection.
+
+
+### Editing parameters 
+
+* __On/Off parameters__:
+Using the color code red. only one button will be used to change the
+parameter.
+
+* __Parameter with list of values__: 
+For the parameters that have a list of values, the colour code it amber,
 for example a Synth wave form selector (square, sine, triangle). If the
 parameter has less that 8 values, they will be directly acessible one by
 one. if more values are available, you can scroll thru the values. the
@@ -189,15 +173,17 @@ closer the button to the center the more precise. the closer the top or
 bottom of the launchpad, the greater the value change will be at each
 press.
 
-Parameter continuous values  
-for the parameters that have a continuous value, like Volume, Panning,
+* __Parameter continuous values__: 
+For the parameters that have a continuous value, like Volume, Panning,
 etc, the colour code is green. by default Launchpad displays the
 parameter like a volume slider on the mixer mode. if you activate the
 precision slider mode (by pressing scene 4 button), the sliders will
 then work in the similar way to the case of parameter with list of
 values.
 
-1\. Which Launchpad flavours are supported  
+## FAQ
+
+1\. Which Launchpad flavours are supported__: 
 Launchpad, Launchpad S, Mini, Mini MK2 and MK2 (RGB), Mini MK3, and
 Launchpad X are supported  
 Basically all Launchpad but the pro are supported by this script.  
