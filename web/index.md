@@ -373,14 +373,14 @@ This mode adds functions to the classic Session Mode. To activate Pro Session Mo
 
 |![](https://placehold.co/64x64/black/green?text=^)<br>prev scene|![](https://placehold.co/64x64/black/green?text=V)<br>next scene|![](https://placehold.co/64x64/black/green?text=<)<br>prev track|![](https://placehold.co/64x64/black/green?text=>)<br>next track|![](https://placehold.co/64x64/black/green?text=Session)<br>Session mode|![](https://placehold.co/64x64/black/purple?text=Note)<br>user 1 Inst.|![](https://placehold.co/64x64/black/orange?text=Custom)<br>user 2 step|![](https://placehold.co/64x64/black/turquoise?text=Capture+MIDI)<br>mixer mode|   |
 |---|---|---|---|---|---|---|---|---|
-|   |   |   |   |   |   |   |   |__Undo__|
-|   |   |   |   |   |   |   |   |__Shift Se/LaunQ__|
-|   |   |   |   |   |   |   |   |__BPM CopyPst__|
-|   |   |   |   |   |   |   |   |__Quant. RecQ__|
-|   |   |   |   |   |   |   |   |__Double FixLen__|
-|   |   |   |   |   |   |   |   |__Delete Mute__|
-|   |   |   |   |   |   |   |   |__Duplic. Solo__|
-|   |   |   |   |   |   |   |   |__Record Arm__|
+|   |   |   |   |   |   |   |   |![](https://placehold.co/64x64/black/green?text=>+Volume)<br>__Undo__|
+|   |   |   |   |   |   |   |   |![](https://placehold.co/64x64/black/white?text=>+Pan)<br>__Shift Se/LaunQ__|
+|   |   |   |   |   |   |   |   |![](https://placehold.co/64x64/black/blue?text=>+Send+A)<br>__BPM CopyPst__|
+|   |   |   |   |   |   |   |   |![](https://placehold.co/64x64/black/orange?text=>+Send+B)<br>__Quant. RecQ__|
+|   |   |   |   |   |   |   |   |![](https://placehold.co/64x64/black/purple?text=>+Stop+Clip)<br>__Double FixLen__|
+|   |   |   |   |   |   |   |   |![](https://placehold.co/64x64/black/red?text=>+Mute)<br>__Delete Mute__|
+|   |   |   |   |   |   |   |   |![](https://placehold.co/64x64/black/blue?text=>+Solo)<br>__Duplic. Solo__|
+|   |   |   |   |   |   |   |   |![](https://placehold.co/64x64/black/red?text=>+Record+Arm)<br>__Record Arm__|
 
 By defaut, there are 8 rows per track in Ableton Live. But the 8th row on the Launchpad contains the Stop button. So it may be necessary to scroll down using the ![](https://placehold.co/64x64/black/green?text=V) button to get to the 8th row of clips.
 
