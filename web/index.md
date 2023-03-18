@@ -2,7 +2,7 @@
 
 These scripts are modified version of Ableton Live 9.2 scripts for
 Novation Launchpad and provide the same functionality but add support
-for editing the midi clips using a step sequencer, an Instrument
+for editing the midi clips using a Step Sequencer, an Instrument
 Controller and Device Controller and an improved Instrument Mode. It
 does not require any external tool like Max for Live (M4L) in order to
 work. This script is just a plain Live Control Surface Python Script.
@@ -59,7 +59,7 @@ In terms of hardware the following are supported:
 ## User Manual
 
 Four modes are added on top of the existing modes. These are **Drum Step
-Sequencer** mode to edit midi clips, a **medodic step sequencer**, and
+Sequencer** mode to edit midi clips, a **medodic Step Sequencer**, and
 **Device Controller** mode to edit any parameter of any instrument,
 effect or device on any track of your arrangement, and finally an
 **Instrument Mode** providing a tighter integration with Live.
@@ -184,9 +184,9 @@ In this mode you can activate and configure note repeat.
 
 ### Drum Step Sequencer Mode
 
-To activate the Drum Step Sequencer, select a midi clip in the clip view. Then press User Mode 2 button once, activating the step sequencer (in normal mode). Press user mode 2 button once more opens the Melodic Step Sequencer.
+To activate the Drum Step Sequencer, select a midi clip in the clip view. Then press User Mode 2 button once, activating the Step Sequencer (in normal mode). Press user mode 2 button once more opens the Melodic Step Sequencer.
 
-This sequencer has two sub modes detailed below. combined and multinotes. (note there is a second step sequencer, Melodic Step Sequencer detailed further down).
+This sequencer has two sub modes detailed below. combined and multinotes. (note there is a second Step Sequencer, Melodic Step Sequencer detailed further down).
 
 A playback/metronome indicator is scrolling thru the grid in amber to indicate the playing position of the clip as the clip is playing. This is just an overlay, it does not affect the functionality of the buttons.
 
@@ -215,8 +215,8 @@ Some buttons have combined function:
 
 * Lock (2nd scene button):
   * Press long to switch between clip lock and play clip on locked track mode
-  * Yellow : track lock mode. step sequencer is locked to current track and will follow playing clip on this track
-  * Red : step sequencer is locked to current clip.
+  * Yellow : track lock mode. Step Sequencer is locked to current track and will follow playing clip on this track
+  * Red : Step Sequencer is locked to current clip.
 * Quantize (3rd scene button):
   * Press long duplicate clip in a new clip
 * Mute (last scene button):
@@ -256,7 +256,7 @@ Buttons as above, plus:
 * __prev page__: Select prev clip page
 * __next page__: Select next clip page
 
-### Melodic StepSequencer
+### Melodic Step Sequencer
 
 To activate this mode, press user mode 2 button until it turns green.
 
