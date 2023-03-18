@@ -395,7 +395,7 @@ The scene buttons allow you to perform several functions as shown below:
   * Shift + Tempo + Matrix: Launch scene
   * Tempo + Last Row: Tempo
 * ![](https://placehold.co/64x64/black/orange?text=>+Send+B) __Quant. RecQ__
-  * Double click: Record Quantization ON/OFF. When Record Quantization is ON, the key is illuminated more brightly
+  * Double click: Record Quantization ON/OFF. When Record Quantization is ON, the key will light up brigther
   * Quantize + Matrix: Quantizes clip
   * Shift + Quantize + Matrix: Create new Scene
   * Quantize + Last Row: record quantizatin
@@ -425,7 +425,7 @@ The scene buttons allow you to perform several functions as shown below:
     * Matrix Button: Arm clip track and launch clip (Record/Overdub clip)
     * Record + Last Row: Arm Track
 
-Below are the last matrix row for each of the modes:
+Holding down the respective button as mentioned above will change the last row of the pads matrix as follows:
 
 #### Launch and Record Quantization, and fixed clip length recording
 
@@ -433,15 +433,21 @@ Below are the last matrix row for each of the modes:
 |---|---|---|---|---|---|---|---|---|
 |on/off|decrease|increase|value1|value2|value3|value4|value5|Record Arm|
 
+The active selection will light up brighter.
+
 #### Metronome and Tempo
 
-|on/off|nudge left|nudge right|-5|-1|+1|+5|tap|Record Arm|
+|![](https://placehold.co/64x64/green/green)|![](https://placehold.co/64x64/orange/orange)|![](https://placehold.co/64x64/orange/orange)|![](https://placehold.co/64x64/red/red)|![](https://placehold.co/64x64/red/red)|![](https://placehold.co/64x64/red/red)|![](https://placehold.co/64x64/red/red)|![](https://placehold.co/64x64/red/red)|![](https://placehold.co/64x64/black/red?text=>+Record+Arm)|
 |---|---|---|---|---|---|---|---|---|
+|on/off|nudge left|nudge right|-5|-1|+1|+5|tap|Record Arm|
+
+The active selection will light up brighter.
 
 #### Mute, Solo, Arm
 
-|arm mute solo|arm mute solo|arm mute solo|arm mute solo|arm mute solo||||Record Arm|
-|---|---|---|---|---|---|---|---|---|
+For each track, there will be one pad lit up in yellow (Mute), blue (Solo), or red (Record Arm).
+
+The active selection will light up brighter.
 
 ### User1 Mode
 
