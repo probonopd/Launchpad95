@@ -343,6 +343,8 @@ To enter Session Mode, press ![](https://placehold.co/64x64/black/green?text=Ses
 |   |   |   |   |   |   |   |   |![](https://placehold.co/64x64/black/white?text=>)|
 |   |   |   |   |   |   |   |   |![](https://placehold.co/64x64/black/white?text=>)|
 
+By defaut, there are 8 rows per track in Ableton Live. But the 8th row on the Launchpad contains the Stop button. So it may be necessary to scroll down using the ![](https://placehold.co/64x64/black/green?text=V) button to get to the 8th row of clips.
+
 * __Red pads:__ Clips that do not exist yet
 * __Green pulsating pads:__ Currently running clips
 * __Green blinking pads:__ Clips that will start playing at the next possible occasion
@@ -350,8 +352,6 @@ To enter Session Mode, press ![](https://placehold.co/64x64/black/green?text=Ses
 * __Red pads:__ Indicate the track (column) that is armed for recording
 * __Cold white pads in the last row:__ Stop clips in that track
 * Right-hand side ![](https://placehold.co/64x64/black/white?text=>) buttons: Launch scenes (row of clips)
-
-By defaut, there are 8 rows per track in Ableton Live. But the 8th row on the Launchpad contains the Stop button. So it may be necessary to scroll down using the ![](https://placehold.co/64x64/black/green?text=V) button to get to the 8th row of clips.
 
 ### Pro Session Mode
 
@@ -368,41 +368,43 @@ This mode adds functions to the classic Session Mode. To activate Pro Session Mo
 |   |   |   |   |   |   |   |   |__Duplic. Solo__|
 |   |   |   |   |   |   |   |   |__Record Arm__|
 
-The down navigation buttons allow to navigate using the Session Box (note that it olny have 7 rows) The scene buttons allow you to perform several functions as shown below.
+By defaut, there are 8 rows per track in Ableton Live. But the 8th row on the Launchpad contains the Stop button. So it may be necessary to scroll down using the ![](https://placehold.co/64x64/black/green?text=V) button to get to the 8th row of clips.
 
-* __Undo__
+The scene buttons allow you to perform several functions as shown below:
+
+* ![](https://placehold.co/64x64/black/green?text=>+Volume) __Undo__
   * Long press: Redo
-* __Shift Se/LaunQ__
+* ![](https://placehold.co/64x64/black/white?text=>+Pan) __Shift Se/LaunQ__
   * Also acts as Shift button
   * Double click: hide detail view
   * Shift + Matrix: select clip and show details
   * Shift + Last Row: clip launch quantization
-* __BPM CopyPst__
+* ![](https://placehold.co/64x64/black/blue?text=>+Send+A) __BPM CopyPst__
   * Double click: Metronome ON/OFF
   * Tempo + Matrix: Fold/Unfold track
   * Shift + Tempo + Matrix: Launch scene
   * Tempo + Last Row: Tempo
-* __Quant. RecQ__
+* ![](https://placehold.co/64x64/black/orange?text=>+Send+B) __Quant. RecQ__
   * Double click: Record Quantization ON/OFF
   * Quantize + Matrix: Quantizes clip
   * Shift + Quantize + Matrix: Create new Scene
   * Quantize + Last Row: record quantizatin
-* __Double FixLen__
+* ![](https://placehold.co/64x64/black/purple?text=>+Stop+Clip) __Double FixLen__
   * Double click: Unsolo all tracks
   * Duplicate + Matrix: Duplicate clip
   * Shift + Duplicate + Matrix: Duplicate Scene
   * Duplicate + Last Row: Solo Track
-* __Delete Mute__
+* ![](https://placehold.co/64x64/black/red?text=>+Mute) __Delete Mute__
   * Double click: Unmute all tracks
   * Delete + Matrix: Delete clip
   * Shift + Delete + Matrix: Delete Scene
   * Delete + Last Row: Mute Track
-* __Duplic. Solo__
+* ![](https://placehold.co/64x64/black/blue?text=>+Solo) __Duplic. Solo__
   * Double click: Unsolo all tracks
   * Duplicate + Matrix: Duplicate clip
   * Shift + Duplicate + Matrix: Duplicate Scene
   * Duplicate + Last Row: Solo Track
-* __Record Arm__
+* ![](https://placehold.co/64x64/black/red?text=>+Record+Arm) __Record Arm__
   * Shift + Record: Single/Multi Record mode
   * Single Record
     * Single click: Session Record ON/OFF
