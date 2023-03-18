@@ -46,7 +46,7 @@ In terms of hardware the following are supported:
   to "MIDI Sync" panel. Select Launchpad95 as your control surface and
   select the launchpad Midi Port MIDI ports like shown below.  
   Newer Launchpads (X and Mini MK3) offer two inputs and output ports.
-  Make sure to use the 2nd one, both for input and output.  
+  Make sure to use the 2nd one ("port-1"), both for input and output.  
   <img src="setup-script.png" style="margin:10px" />
 - Make sure to enable "Track", "Sync" and "Remote" in the midi options
   below for the MIDI ports used by Launchpad95.  
