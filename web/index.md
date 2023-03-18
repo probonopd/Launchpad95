@@ -477,6 +477,8 @@ Note that User2 Mode is now disabled by default. It can be activated again by ed
 
 ### Mixer Mode
 
+To activate Mixer Mode, press ![](https://placehold.co/64x64/black/turquoise?text=Capture+MIDI).
+
 #### Volume
 
 If you wish to override default mapping for volume slider buttons you can set it via `VOLUME_LEVELS` setting in the `Settings.py` file.
