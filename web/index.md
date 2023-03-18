@@ -347,6 +347,7 @@ To enter Session Mode, press ![](https://placehold.co/64x64/black/green?text=Ses
 * __Green pulsating pads:__ Currently running clips
 * __Green blinking pads:__ Clips that will start playing at the next possible occasion
 * __White pads:__ Existing clips available to be played
+* __Red pads:__ Indicate the track (column) that is armed for recording
 * __Cold white pads in the last row:__ Stop clips in that track
 * Right-hand side ![](https://placehold.co/64x64/black/white?text=>) buttons: Launch scenes (row of clips)
 
