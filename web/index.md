@@ -98,216 +98,32 @@ track and manual track arming. Colour of the button will reflect the
 selected mode. This is really useful if you have more than one
 controller/person interacting with Live.
 
-prev scene
-
-next scene
-
-prev track
-
-next track
-
-Session mode
-
-user 1 Inst.
-
-user 2 step
-
-mixer mode
-
-enter scale edition mode
-
-scale
-
-undo. long press to redo
-
-undo
-
-octave up
-
-octave down
-
-stop selected clip
-
-stop
-
-start selected clip
-
-start
-
-solo current track
-
-solo
-
-session record
-
-overdub
+|prev scene|next scene|prev track|next track|Session mode|user 1 Inst.|user 2 step|mixer mode|   |
+|---|---|---|---|---|---|---|---|---|
+|   |   |   |   |   |   |   |   |enter scale edition mode|
+|   |   |   |   |   |   |   |   |undo. long press to redo|
+|   |   |   |   |   |   |   |   |octave up|
+|   |   |   |   |   |   |   |   |octave down|
+|   |   |   |   |   |   |   |   |stop selected clip|
+|   |   |   |   |   |   |   |   |start selected clip|
+|   |   |   |   |   |   |   |   |solo current track|
+|   |   |   |   |   |   |   |   |session record|
 
 #### scale edition mode
 
 To enter scale edition mode press (and keep pressed) the 1st scene
 button from Instrument mode.
 
-prev scene
-
-next scene
-
-prev track
-
-next track
-
-Session mode
-
-user 1 Inst.
-
-user 2 step
-
-mixer mode
-
-absolute root
-
-orient.
-
-chromatic guitar
-
-diatonic sequent
-
-diatonic 3rd
-
-diatonic 4th
-
-chromatic
-
-drumrack
-
-enter scale edition mode
-
-scale
-
-C#
-
-D#
-
-relative scale
-
-F#
-
-G#
-
-A#
-
-5th left
-
-quick scale mode
-
-<div class="note">
-
-undo. long press to redo
-
-undo
-
-C
-
-D
-
-E
-
-F
-
-G
-
-A
-
-B
-
-5th right
-
-octave up
-
--2
-
--1
-
-0
-
-1
-
-2
-
-3
-
-4
-
-5
-
-octave down
-
-Major
-
-Minor
-
-Dorian
-
-Mixolyd.
-
-Lydian
-
-Phrygian
-
-Locrian
-
-Diminish.
-
-stop selected clip
-
-stop
-
-Whole-half
-
-Whole Tone
-
-Minor Blues
-
-Minor Penta.
-
-Major Penta.
-
-Harmonic Minor
-
-Melodic Minor
-
-Super Locrian
-
-start selected clip
-
-start
-
-Bhairav
-
-Hunga. Minor
-
-Minor Gypsy
-
-Hirojoshi
-
-In-Sen
-
-Iwato
-
-Kumoi
-
-Pelog
-
-solo current track
-
-solo
-
-Spanish
-
-IonEol
-
-session record
-
-overdub
+|prev scene|next scene|prev track|next track|Session mode|user 1 Inst.|user 2 step|mixer mode|   |
+|---|---|---|---|---|---|---|---|---|
+|absolute root|orient.|chromatic guitar|diatonic sequent|diatonic 3rd|diatonic 4th|chromatic|drumrack|enter scale edition mode|
+|C#|D#|relative scale|F#|G#|A#|5th left|quick scale mode|undo. long press to redo|
+|C|D|E|F|G|A|B|5th right|octave up|
+|-2|-1|0|1|2|3|4|5|octave down|
+|Major|Minor|Dorian|Mixolyd.|Lydian|Phrygian|Locrian|Diminish.|stop selected clip|
+|Whole-half|Whole Tone|Minor Blues|Minor Penta.|Major Penta.|Harmonic Minor|Melodic Minor|Super Locrian|start selected clip|
+|Bhairav|Hunga. Minor|Minor Gypsy|Hirojoshi|In-Sen|Iwato|Kumoi|Pelog|solo current track|
+|Spanish|IonEol|   |   |   |   |   |   |session record|
 
 Orient  
 this button will change the orientation from vertical to horizontal of
