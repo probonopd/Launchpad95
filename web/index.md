@@ -30,6 +30,8 @@ In terms of hardware the following are supported:
   Pro95](http://motscousus.com/stuff/2015-12_Novation_Launchpad_Pro_Ableton_Live_Scripts/)
 - ~~Launchpad PRO MK2~~ is not supported
 
+> __Note__: This documentation describes the colors on RGB models. Older models will use different colors.
+
 ### Setup
 
 - Download the installation archive:
