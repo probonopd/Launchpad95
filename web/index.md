@@ -37,7 +37,7 @@ In terms of hardware the following are supported:
 ### Setup
 
 - Download the installation archive:
-  **[Launchpad95.zip](Launchpad95.zip)**
+  **[Launchpad95.zip](https://github.com/hdavid/Launchpad95/archive/refs/heads/master.zip)**
 - For Live 10 and above, Unzip the zip file and copy the folder
   Launchpad95 into you Ableton Live User Library, in a folder named
   "Remote Scripts". Create this folder if needed.  
