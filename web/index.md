@@ -332,7 +332,8 @@ You can save up to 4 devices using the 4 bottom scene button. if not device is s
 
 To enter Session Mode, press ![](https://placehold.co/64x64/black/green?text=Session) once. The buttons on the right-hand side remain dark.
 
-|scenes up|senes down|tracks left|tracks right|Session mode|user 1 Inst.|user 2 step|mixer mode|   |
+
+|![](https://placehold.co/64x64/black/green?text=^)<br>prev scene|![](https://placehold.co/64x64/black/green?text=V)<br>next scene|![](https://placehold.co/64x64/black/green?text=<)<br>prev track|![](https://placehold.co/64x64/black/green?text=>)<br>next track|![](https://placehold.co/64x64/black/green?text=Session)<br>Session mode|![](https://placehold.co/64x64/black/purple?text=Note)<br>user 1 Inst.|![](https://placehold.co/64x64/black/orange?text=Custom)<br>user 2 step|![](https://placehold.co/64x64/black/turquoise?text=Capture+MIDI)<br>mixer mode|   |
 |---|---|---|---|---|---|---|---|---|
 |   |   |   |   |   |   |   |   |__Undo__|
 |   |   |   |   |   |   |   |   |__Shift Se/LaunQ__|
@@ -342,6 +343,8 @@ To enter Session Mode, press ![](https://placehold.co/64x64/black/green?text=Ses
 |   |   |   |   |   |   |   |   |__Delete Mute__|
 |   |   |   |   |   |   |   |   |__Duplic. Solo__|
 |   |   |   |   |   |   |   |   |__Record Arm__|
+
+> __Note__: Unlike what Launchpad95 documentation suggests, the right-hand buttons do not seem to have the funtions from the table above. Rather they launch scenes (rows of clips). Should we change the documentation above?
 
 ### Pro Session Mode
 
