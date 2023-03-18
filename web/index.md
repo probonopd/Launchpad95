@@ -53,8 +53,8 @@ In terms of hardware the following are supported:
   <img src="setup-ports.png" style="margin:10px" />
 - For Live Suite users, in the M4LDevice folder is included an OSD (on
   screen display) Max4Live device that will display information,
-  similarly to what one could see on an Ableton Push screen.  
-  <br><img src="osd.png" style="margin:10px" /><br>
+  similarly to what one could see on an Ableton Push screen.
+  <img src="osd.png" style="margin:10px" /><br>
   To use it, simply drag the OSD M4L file anywhere in the Ableton Live window, on any track.
 
 ## User Manual
