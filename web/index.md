@@ -332,6 +332,29 @@ You can save up to 4 devices using the 4 bottom scene button. if not device is s
 
 To enter Session Mode, press ![](https://placehold.co/64x64/black/green?text=Session) once. The buttons on the right-hand side remain dark.
 
+|![](https://placehold.co/64x64/black/green?text=^)<br>prev scene|![](https://placehold.co/64x64/black/green?text=V)<br>next scene|![](https://placehold.co/64x64/black/green?text=<)<br>prev track|![](https://placehold.co/64x64/black/green?text=>)<br>next track|![](https://placehold.co/64x64/black/green?text=Session)<br>Session mode|![](https://placehold.co/64x64/black/purple?text=Note)<br>user 1 Inst.|![](https://placehold.co/64x64/black/orange?text=Custom)<br>user 2 step|![](https://placehold.co/64x64/black/turquoise?text=Capture+MIDI)<br>mixer mode|   |
+|---|---|---|---|---|---|---|---|---|
+|   |   |   |   |   |   |   |   |![](https://placehold.co/64x64/black/white?text=>)|
+|   |   |   |   |   |   |   |   |![](https://placehold.co/64x64/black/white?text=>)|
+|   |   |   |   |   |   |   |   |![](https://placehold.co/64x64/black/white?text=>)|
+|   |   |   |   |   |   |   |   |![](https://placehold.co/64x64/black/white?text=>)|
+|   |   |   |   |   |   |   |   |![](https://placehold.co/64x64/black/white?text=>)|
+|   |   |   |   |   |   |   |   |![](https://placehold.co/64x64/black/white?text=>)|
+|   |   |   |   |   |   |   |   |![](https://placehold.co/64x64/black/white?text=>)|
+|   |   |   |   |   |   |   |   |![](https://placehold.co/64x64/black/white?text=>)|
+
+* __Red pads:__ Clips that do not exist yet
+* __Green pulsating pads:__ Currently running clips
+* __Green blinking pads:__ Clips that will start playing at the next possible occasion
+* __White pads:__ Existing clips available to be played
+* __Cold white pads in the last row:__ Stop clips in that track
+* Right-hand side ![](https://placehold.co/64x64/black/white?text=>) buttons: Launch scenes (row of clips)
+
+By defaut, there are 8 rows per track in Ableton Live. But the 8th row on the Launchpad contains the Stop button. So it may be necessary to scroll down using the ![](https://placehold.co/64x64/black/green?text=V) button to get to the 8th row of clips.
+
+### Pro Session Mode
+
+This mode adds functions to the classic Session Mode. To activate Pro Session Mode, press ![](https://placehold.co/64x64/black/green?text=Session) again. The buttons on the right-hand become illuminated. Repat to back to normal Session Mode.
 
 |![](https://placehold.co/64x64/black/green?text=^)<br>prev scene|![](https://placehold.co/64x64/black/green?text=V)<br>next scene|![](https://placehold.co/64x64/black/green?text=<)<br>prev track|![](https://placehold.co/64x64/black/green?text=>)<br>next track|![](https://placehold.co/64x64/black/green?text=Session)<br>Session mode|![](https://placehold.co/64x64/black/purple?text=Note)<br>user 1 Inst.|![](https://placehold.co/64x64/black/orange?text=Custom)<br>user 2 step|![](https://placehold.co/64x64/black/turquoise?text=Capture+MIDI)<br>mixer mode|   |
 |---|---|---|---|---|---|---|---|---|
@@ -343,14 +366,6 @@ To enter Session Mode, press ![](https://placehold.co/64x64/black/green?text=Ses
 |   |   |   |   |   |   |   |   |__Delete Mute__|
 |   |   |   |   |   |   |   |   |__Duplic. Solo__|
 |   |   |   |   |   |   |   |   |__Record Arm__|
-
-> __Note__: Unlike what Launchpad95 documentation suggests, the right-hand buttons do not seem to have the funtions from the table above. Rather they launch scenes (rows of clips). Should we change the documentation above?
-
-### Pro Session Mode
-
-To enter Pro Session Mode, press ![](https://placehold.co/64x64/black/green?text=Session) again. The buttons on the right-hand become illuminated.
-
-This mode adds functions to the classic Session Mode. To activate Pro Session Mode, press and release Session button (mode button remains amber). Repat to back to normal Session Mode.
 
 The down navigation buttons allow to navigate using the Session Box (note that it olny have 7 rows) The scene buttons allow you to perform several functions as shown below.
 
