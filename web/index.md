@@ -429,8 +429,9 @@ Below are the last matrix row for each of the modes:
 
 #### Launch and Record Quantization, and fixed clip length recording
 
-|on/off|decrease|increase|value1|value2|value3|value4|value5|Record Arm|
+|![](https://placehold.co/64x64/green/green)|![](https://placehold.co/64x64/orange/orange)|![](https://placehold.co/64x64/orange/orange)|![](https://placehold.co/64x64/yellow/yellow)|![](https://placehold.co/64x64/yellow/yellow)|![](https://placehold.co/64x64/yellow/yellow)|![](https://placehold.co/64x64/yellow/yellow)|![](https://placehold.co/64x64/yellow/yellow)|![](https://placehold.co/64x64/black/red?text=>+Record+Arm)|
 |---|---|---|---|---|---|---|---|---|
+|on/off|decrease|increase|value1|value2|value3|value4|value5|Record Arm|
 
 #### Metronome and Tempo
 
