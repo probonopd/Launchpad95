@@ -410,6 +410,41 @@ Below are the last matrix row for each of the modes:
 
 ### User1 Mode
 
+Note that User1 Mode is now disabled by default. It can be activated again by editing `Settings.py`.
+
+### User2 Mode
+
+Note that User2 Mode is now disabled by default. It can be activated again by editing `Settings.py`.
+
+### Mixer Mode
+
+#### Volume
+
+If you wish to override default mapping for volume slider buttons you can set it via `VOLUME_LEVELS` setting in the `Settings.py` file.
+
+|prev scene|next scene|prev track|next track|Session mode|user 1 Inst.|user 2 step|mixer mode|   |
+|---|---|---|---|---|---|---|---|---|
+|   |   |   |   |   |   |   |   |__Volume__|
+|   |   |   |   |   |   |   |   |__Pan__|
+|   |   |   |   |   |   |   |   |__Send A__|
+|   |   |   |   |   |   |   |   |__Send B__|
+|   |   |   |   |   |   |   |   |__Stop All__|
+|   |   |   |   |   |   |   |   |__Active all__|
+|   |   |   |   |   |   |   |   |Unsolo II|
+|   |   |   |   |   |   |   |   |Unarm All|
+
+
+## Max For Live On Screen Display / Helper
+
+Launchpad95 comes packaged with a Max for Live device that will display useful information about currently selected tracks, clips and other parameters. Make sure to try it!
+
+<img src="osd.png" style="margin:10px" />
+
+It is available in `Launchpad95/M4LDevice/Launchpad95 OSD.amxd`.
+
+## Source
+
+https://github.com/hdavid/Launchpad95/
 
 ## FAQ
 
