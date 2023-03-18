@@ -345,12 +345,18 @@ To enter Session Mode, press ![](https://placehold.co/64x64/black/green?text=Ses
 
 By defaut, there are 8 rows per track in Ableton Live. But the 8th row on the Launchpad contains the Stop button. So it may be necessary to scroll down using the ![](https://placehold.co/64x64/black/green?text=V) button to get to the 8th row of clips.
 
+The pads have the following meaning:
+
 * __Red pads:__ Clips that do not exist yet
 * __Green pulsating pads:__ Currently running clips
+* __Red pulsating pads:__ Currently runing clips armed for recording
 * __Green blinking pads:__ Clips that will start playing at the next possible occasion
 * __White pads:__ Existing clips available to be played
 * __Red pads:__ Indicate the track (column) that is armed for recording
 * __Cold white pads in the last row:__ Stop clips in that track
+
+The scene buttons allow you to launch scenes:
+
 * Right-hand side ![](https://placehold.co/64x64/black/white?text=>) buttons: Launch scenes (row of clips)
 
 ### Pro Session Mode
@@ -369,6 +375,10 @@ This mode adds functions to the classic Session Mode. To activate Pro Session Mo
 |   |   |   |   |   |   |   |   |__Record Arm__|
 
 By defaut, there are 8 rows per track in Ableton Live. But the 8th row on the Launchpad contains the Stop button. So it may be necessary to scroll down using the ![](https://placehold.co/64x64/black/green?text=V) button to get to the 8th row of clips.
+
+The pads have the following meaning:
+
+(As in Session Mode above.)
 
 The scene buttons allow you to perform several functions as shown below:
 
