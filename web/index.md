@@ -184,9 +184,9 @@ In this mode you can activate and configure note repeat.
 
 ### Drum Step Sequencer Mode
 
-To activate the Drum Step Sequencer, select a midi clip in the clip view. Then press User Mode 2 button once, activating the step sequencer (in normal mode). Press user mode 2 button once more opens the Melodic step sequencer.
+To activate the Drum Step Sequencer, select a midi clip in the clip view. Then press User Mode 2 button once, activating the step sequencer (in normal mode). Press user mode 2 button once more opens the Melodic Step Sequencer.
 
-This sequencer has two sub modes detailed below. combined and multinotes. (note there is a second step sequencer, melodic step sequencer detailed further down).
+This sequencer has two sub modes detailed below. combined and multinotes. (note there is a second step sequencer, Melodic Step Sequencer detailed further down).
 
 A playback/metronome indicator is scrolling thru the grid in amber to indicate the playing position of the clip as the clip is playing. This is just an overlay, it does not affect the functionality of the buttons.
 
