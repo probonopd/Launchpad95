@@ -241,9 +241,7 @@ Some buttons have combined function:
 |   |   |   |   |   |   |   |   |__Up__: Scroll up (notes)|
 |   |   |   |   |   |   |   |   |__Down__: Scroll down (notes)|
 |   |   |   |   |   |   |   |   |__Velocity__: Cycle thru velocities and velocity shift notes|
-|   |   |   |   |   |   |   |   |__Mute__: Hold and press a note in the matrix to (un)mute it.
-hold and press a note in the note selector to mute a lane
-hold+nav keys to scroll up/down one octave|
+|   |   |   |   |   |   |   |   |__Mute__: Hold and press a note in the matrix to (un)mute it. Hold and press a note in the note selector to mute a lane. Hold+nav keys to scroll up/down one octave|
 
 * __user 2 step__: Cycle thru StepSequencers and User Mode 2
 
