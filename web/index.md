@@ -441,6 +441,8 @@ Launchpad95 comes packaged with a Max for Live device that will display useful i
 
 It is available in `Launchpad95/M4LDevice/Launchpad95 OSD.amxd`.
 
+To use it, simply drag the OSD M4L file anywhere in the Ableton Live window, on any track.
+
 ## Source
 
 https://github.com/hdavid/Launchpad95/
