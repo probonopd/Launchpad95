@@ -59,7 +59,7 @@ In terms of hardware the following are supported:
 ## User Manual
 
 Four modes are added on top of the existing modes. These are **Drum Step
-Sequencer** mode to edit midi clips, a **medodic Step Sequencer**, and
+Sequencer** mode to edit midi clips, a **Medodic Step Sequencer**, and
 **Device Controller** mode to edit any parameter of any instrument,
 effect or device on any track of your arrangement, and finally an
 **Instrument Mode** providing a tighter integration with Live.
