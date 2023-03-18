@@ -345,7 +345,7 @@ To enter Session Mode, press ![](https://placehold.co/64x64/black/green?text=Ses
 
 ### Pro Session Mode
 
-To enter Session Mode, press ![](https://placehold.co/64x64/black/green?text=Session) again. The buttons on the right-hand become illuminated.
+To enter Pro Session Mode, press ![](https://placehold.co/64x64/black/green?text=Session) again. The buttons on the right-hand become illuminated.
 
 This mode adds functions to the classic Session Mode. To activate Pro Session Mode, press and release Session button (mode button remains amber). Repat to back to normal Session Mode.
 
