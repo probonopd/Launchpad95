@@ -97,7 +97,7 @@ track and manual track arming. Colour of the button will reflect the
 selected mode. This is really useful if you have more than one
 controller/person interacting with Live.
 
-|![](https://placehold.co/64x64/black/green?text=^)<br>prev scene|![](https://placehold.co/64x64/black/green?text=V)<br>next scene|![](https://placehold.co/64x64/black/green?text=<)<br>prev track|![](https://placehold.co/64x64/black/green?text=>)<br>next track|![](https://placehold.co/64x64/black/green?text=Session)<br>Session mode|![](https://placehold.co/64x64?text=Note)<br>user 1 Inst.|![](https://placehold.co/64x64?text=Custom)<br>user 2 step|![](https://placehold.co/64x64?text=Capture+MIDI)<br>mixer mode|   |
+|![](https://placehold.co/64x64/black/green?text=^)<br>prev scene|![](https://placehold.co/64x64/black/green?text=V)<br>next scene|![](https://placehold.co/64x64/black/green?text=<)<br>prev track|![](https://placehold.co/64x64/black/green?text=>)<br>next track|![](https://placehold.co/64x64/black/green?text=Session)<br>Session mode|![](https://placehold.co/64x64/black/purple?text=Note)<br>user 1 Inst.|![](https://placehold.co/64x64/black/orange?text=Custom)<br>user 2 step|![](https://placehold.co/64x64/black/turquoise?text=Capture+MIDI)<br>mixer mode|   |
 |---|---|---|---|---|---|---|---|---|
 |   |   |   |   |   |   |   |   |![](https://placehold.co/64x64?text=>+Volume)<br>__enter scale edition mode__|
 |   |   |   |   |   |   |   |   |![](https://placehold.co/64x64?text=>+Pan)<br>__undo. long press to redo__|
