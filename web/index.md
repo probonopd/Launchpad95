@@ -36,7 +36,8 @@ In terms of hardware the following are supported:
   **[Launchpad95.zip](https://github.com/hdavid/Launchpad95/archive/refs/heads/master.zip)**
 - For Live 10 and above, Unzip the zip file and copy the folder
   Launchpad95 into you Ableton Live User Library, in a folder named
-  "Remote Scripts". Create this folder if needed.  
+  "Remote Scripts". Create this folder if needed. On Windows, this folder is located at
+  `C:\Users/...\AppData\Roaming\Ableton\Live 11.x.y\Preferences\User Remote Scripts/`.
   <img src="setup-folders.png" style="margin:10px" />
 - For Live 9 users, see [faq 4](#faq-4)
 - After the folder has been copied, plug-in your Launchpad in the
