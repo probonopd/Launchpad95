@@ -100,14 +100,14 @@ controller/person interacting with Live.
 
 |prev scene|next scene|prev track|next track|Session mode|user 1 Inst.|user 2 step|mixer mode|   |
 |---|---|---|---|---|---|---|---|---|
-|   |   |   |   |   |   |   |   |enter scale edition mode|
-|   |   |   |   |   |   |   |   |undo. long press to redo|
-|   |   |   |   |   |   |   |   |octave up|
-|   |   |   |   |   |   |   |   |octave down|
-|   |   |   |   |   |   |   |   |stop selected clip|
-|   |   |   |   |   |   |   |   |start selected clip|
-|   |   |   |   |   |   |   |   |solo current track|
-|   |   |   |   |   |   |   |   |session record|
+|   |   |   |   |   |   |   |   |__enter scale edition mode__|
+|   |   |   |   |   |   |   |   |__undo. long press to redo__|
+|   |   |   |   |   |   |   |   |__octave up__|
+|   |   |   |   |   |   |   |   |__octave down__|
+|   |   |   |   |   |   |   |   |__stop selected clip__|
+|   |   |   |   |   |   |   |   |__start selected clip__|
+|   |   |   |   |   |   |   |   |__solo current track__|
+|   |   |   |   |   |   |   |   |__session record__|
 
 #### Scale edition mode
 
@@ -116,14 +116,14 @@ button from Instrument mode.
 
 |prev scene|next scene|prev track|next track|Session mode|user 1 Inst.|user 2 step|mixer mode|   |
 |---|---|---|---|---|---|---|---|---|
-|absolute root|orient.|chromatic guitar|diatonic sequent|diatonic 3rd|diatonic 4th|chromatic|drumrack|enter scale edition mode|
-|C#|D#|relative scale|F#|G#|A#|5th left|quick scale mode|undo. long press to redo|
-|C|D|E|F|G|A|B|5th right|octave up|
-|-2|-1|0|1|2|3|4|5|octave down|
-|Major|Minor|Dorian|Mixolyd.|Lydian|Phrygian|Locrian|Diminish.|stop selected clip|
-|Whole-half|Whole Tone|Minor Blues|Minor Penta.|Major Penta.|Harmonic Minor|Melodic Minor|Super Locrian|start selected clip|
-|Bhairav|Hunga. Minor|Minor Gypsy|Hirojoshi|In-Sen|Iwato|Kumoi|Pelog|solo current track|
-|Spanish|IonEol|   |   |   |   |   |   |session record|
+|absolute root|orient.|chromatic guitar|diatonic sequent|diatonic 3rd|diatonic 4th|chromatic|drumrack|__enter scale edition mode__|
+|C#|D#|relative scale|F#|G#|A#|5th left|quick scale mode|__undo. long press to redo__|
+|C|D|E|F|G|A|B|5th right|__octave up__|
+|-2|-1|0|1|2|3|4|5|__octave down__|
+|Major|Minor|Dorian|Mixolyd.|Lydian|Phrygian|Locrian|Diminish.|__stop selected clip__|
+|Whole-half|Whole Tone|Minor Blues|Minor Penta.|Major Penta.|Harmonic Minor|Melodic Minor|Super Locrian|__start selected clip__|
+|Bhairav|Hunga. Minor|Minor Gypsy|Hirojoshi|In-Sen|Iwato|Kumoi|Pelog|__solo current track__|
+|Spanish|IonEol|   |   |   |   |   |   |__session record__|
 
 * __Orient__: this button will change the orientation from vertical to horizontal of
 the instrument mode.
