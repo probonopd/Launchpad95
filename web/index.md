@@ -39,7 +39,7 @@ In terms of hardware the following are supported:
   "Remote Scripts". Create this folder if needed.
   <br><img src="setup-folders.png" style="margin:10px" /></br>
   On Windows, this folder is located at
-  `C:\Users\...\AppData\Roaming\Ableton\Live 11.x.y\Preferences\User Remote Scripts/`.
+  `C:\Users\...\AppData\Roaming\Ableton\Live 11.x.y\Preferences\User Remote Scriptsß`.
 - For Live 9 users, see [faq 4](#faq-4)
 - After the folder has been copied, plug-in your Launchpad in the
   computer and start Ableton Live. Open up the preferences panel and go
