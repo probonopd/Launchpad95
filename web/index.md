@@ -70,11 +70,12 @@ PDF](Manual_%20Launchpad95_FR.pdf), thanks to François Lehérissier.
 
 ### Instrument Controller Mode
 
-Instrument Mode replaces classic User Mode 1. To activate Instrument
-Controller Mode, press ![](https://placehold.co/64x64/black/lightblue?text=Note) (mode button remains light blue).
-Press User Mode 1 button once again, button turns green, activating the
-Device Controller. Once more the button will turn red, activating the
-plain old User Mode 1 in case you need it.
+To activate Instrument Controller Mode, press ![](https://placehold.co/64x64/black/lightblue?text=Note) (mode button remains light blue).
+Press ![](https://placehold.co/64x64/black/lightblue?text=Note) once again, button turns purple, activating the
+Device Controller. 
+
+> __Note__: Original documentation said "Once more the button will turn red, activating the
+plain old User Mode 1 in case you need it." But that mode is disabled by default.
 
 The top up/down navigation buttons allow to navigate scenes, while the
 left/right button allow to navigate tracks. The scene buttons allow you
