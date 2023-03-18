@@ -283,7 +283,15 @@ Double press on the last scene button toggles between monophonic and polyphonic 
 * __next scene__: Select next scene
 * __user 2 step__: Cycle thru StepSequencers and User Mode 2
 
-### Editing parameters 
+### Device Controller Mode
+
+### Navigation
+
+Navigation among tracks and devices is done using the top left navigation buttons.
+
+### Editing parameters
+
+You can edit eight parameters of the selected device on the selected track at once. One parameter per column. You can navigate banks of parameters using scene buttons 2 and 3. depending on the type of parameter edited launchpad will display then in different ways.
 
 * __On/Off parameters__:
 Using the color code red. only one button will be used to change the
@@ -305,6 +313,103 @@ parameter like a volume slider on the mixer mode. if you activate the
 precision slider mode (by pressing scene 4 button), the sliders will
 then work in the similar way to the case of parameter with list of
 values.
+
+#### Locking to devices
+
+You can save up to 4 devices using the 4 bottom scene button. if not device is saved, the button will be pink. To save a device, first select the desired device, then press one of the 4 last scene buttons for more than half a second. the button turn red ! your device is saved. You can recall it at any time by a short press on the scene button. To unsave a device, apply a long press again on the button.
+
+|Device+|Device-|Track-|Track+|Session mode|user 1 device|user 2 step|mixer mode|   |
+|---|---|---|---|---|---|---|---|---|
+|   |   |   |   |   |   |   |   |__On/Off__|
+|   |   |   |   |   |   |   |   |__Bank+__|
+|   |   |   |   |   |   |   |   |__Bank-__|
+|   |   |   |   |   |   |   |   |__Precision__|
+|   |   |   |   |   |   |   |   |__Lock1__|
+|   |   |   |   |   |   |   |   |__Lock2__|
+|   |   |   |   |   |   |   |   |__Lock3__|
+|   |   |   |   |   |   |   |   |__Lock4__|
+
+### Session Mode
+
+|scenes up|senes down|tracks left|tracks right|Session mode|user 1 Inst.|user 2 step|mixer mode|   |
+|---|---|---|---|---|---|---|---|---|
+|   |   |   |   |   |   |   |   |__Undo__|
+|   |   |   |   |   |   |   |   |__Shift Se/LaunQ__|
+|   |   |   |   |   |   |   |   |__BPM CopyPst__|
+|   |   |   |   |   |   |   |   |__Quant. RecQ__|
+|   |   |   |   |   |   |   |   |__Double FixLen__|
+|   |   |   |   |   |   |   |   |__Delete Mute__|
+|   |   |   |   |   |   |   |   |__Duplic. Solo__|
+|   |   |   |   |   |   |   |   |__Record Arm__|
+
+### Pro Session Mode
+
+This mode adds functions to the classic Session Mode. To activate Pro Session Mode, press and release Session button (mode button remains amber). Repat to back to normal Session Mode.
+
+The down navigation buttons allow to navigate using the Session Box (note that it olny have 7 rows) The scene buttons allow you to perform several functions as shown below.
+
+* __Undo__
+  * Long press: Redo
+* __Shift Se/LaunQ__
+  * Also acts as Shift button
+  * Double click: hide detail view
+  * Shift + Matrix: select clip and show details
+  * Shift + Last Row: clip launch quantization
+* __BPM CopyPst__
+  * Double click: Metronome ON/OFF
+  * Tempo + Matrix: Fold/Unfold track
+  * Shift + Tempo + Matrix: Launch scene
+  * Tempo + Last Row: Tempo
+* __Quant. RecQ__
+  * Double click: Record Quantization ON/OFF
+  * Quantize + Matrix: Quantizes clip
+  * Shift + Quantize + Matrix: Create new Scene
+  * Quantize + Last Row: record quantizatin
+* __Double FixLen__
+  * Double click: Unsolo all tracks
+  * Duplicate + Matrix: Duplicate clip
+  * Shift + Duplicate + Matrix: Duplicate Scene
+  * Duplicate + Last Row: Solo Track
+* __Delete Mute__
+  * Double click: Unmute all tracks
+  * Delete + Matrix: Delete clip
+  * Shift + Delete + Matrix: Delete Scene
+  * Delete + Last Row: Mute Track
+* __Duplic. Solo__
+  * Double click: Unsolo all tracks
+  * Duplicate + Matrix: Duplicate clip
+  * Shift + Duplicate + Matrix: Duplicate Scene
+  * Duplicate + Last Row: Solo Track
+* __Record Arm__
+  * Shift + Record: Single/Multi Record mode
+  * Single Record
+    * Single click: Session Record ON/OFF
+    * Record + Matrix: Arm track and launch clip (Record/Overdub clip)
+    * Record + Last Row: Arm Track
+  * Multi Record
+    * Single click: Jump to the next available clip slot and start recording for each armed track
+    * Matrix Button: Arm clip track and launch clip (Record/Overdub clip)
+    * Record + Last Row: Arm Track
+
+Below are the last matrix row for each of the modes:
+
+#### Launch and Record Quantization, and fixed clip length recording
+
+|on/off|decrease|increase|value1|value2|value3|value4|value5|Record Arm|
+|---|---|---|---|---|---|---|---|---|
+
+#### Metronome and Tempo
+
+|on/off|nudge left|nudge right|-5|-1|+1|+5|tap|Record Arm|
+|---|---|---|---|---|---|---|---|---|
+
+#### Mute, Solo, Arm
+
+|arm mute solo|arm mute solo|arm mute solo|arm mute solo|arm mute solo||||Record Arm|
+|---|---|---|---|---|---|---|---|---|
+
+### User1 Mode
+
 
 ## FAQ
 
