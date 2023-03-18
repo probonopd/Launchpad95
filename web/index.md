@@ -369,6 +369,8 @@ The scene buttons allow you to launch scenes:
 
 * Right-hand side ![](https://placehold.co/64x64/black/white?text=>) buttons: Launch scenes (row of clips)
 
+> __Note__: To stop clips, go to Mixer Mode.
+
 ### Pro Session Mode
 
 This mode adds functions to the classic Session Mode. To activate Pro Session Mode, press ![](https://placehold.co/64x64/black/green?text=Session) again. The buttons on the right-hand become illuminated. Repat to back to normal Session Mode.
@@ -467,13 +469,15 @@ For each track, there will be one pad lit up in yellow (Mute), blue (Solo), or r
 
 The active selection will light up brighter.
 
+> __Note__: To stop clips, go to Mixer Mode.
+
 ### User1 Mode
 
-Note that User1 Mode is now disabled by default. It can be activated again by editing `Settings.py`.
+User1 Mode is disabled by default. It can be activated again by editing `Settings.py`.
 
 ### User2 Mode
 
-Note that User2 Mode is now disabled by default. It can be activated again by editing `Settings.py`.
+User2 Mode is disabled by default. It can be activated again by editing `Settings.py`.
 
 ### Mixer Mode
 
