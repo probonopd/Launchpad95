@@ -1,6 +1,4 @@
-<div id="main">
-
-# Launchpad95 : Improved Novation Launchpad remote scripts
+# Launchpad95: Improved Novation Launchpad remote scripts
 
 These scripts are modified version of Ableton Live 9.2 scripts for
 Novation Launchpad and provide the same functionality but add support
@@ -9,17 +7,13 @@ Controller and Device Controller and an improved Instrument Mode. It
 does not require any external tool like Max for Live (M4L) in order to
 work. This script is just a plain Live Control Surface Python Script.
 
-  
-
-Comment, feedback and updates : please check this thread on Ableton
+Comment, feedback and updates: please check this thread on Ableton
 forum <http://forum.ableton.com/viewtopic.php?f=1&t=168495>
 
 Willing to make a donation ?
 [paypal](https://www.paypal.com/us/cgi-bin/webscr?cmd=_send-money&nav=1&email=hdavid@mail.com)
 to my account
 [hdavid@mail.com](https://www.paypal.com/us/cgi-bin/webscr?cmd=_send-money&nav=1&email=hdavid@mail.com).
-
-<div class="section">
 
 ## Installation
 
@@ -42,7 +36,7 @@ In terms of hardware the following are supported:
 
 ### Setup
 
-- Download the installation archive :
+- Download the installation archive:
   **[Launchpad95.zip](Launchpad95.zip)**
 - For Live 10 and above, Unzip the zip file and copy the folder
   Launchpad95 into you Ableton Live User Library, in a folder named
@@ -64,10 +58,6 @@ In terms of hardware the following are supported:
   similarly to what one could see on an Ableton Push screen.  
   <img src="osd.png" style="margin:10px" />
 
-</div>
-
-<div class="section">
-
 ## User Manual
 
 Four modes are added on top of the existing modes. These are **Drum Step
@@ -78,10 +68,6 @@ effect or device on any track of your arrangement, and finally an
 
 Note the manual is also available in [french as a
 PDF](Manual_%20Launchpad95_FR.pdf), thanks to François Lehérissier.
-
-</div>
-
-<div class="section">
 
 ### Instrument Controller Mode
 
@@ -101,22 +87,18 @@ layout, and a melodic mode. Melodic mode enable you to select root note,
 type of mode (major, minor etc), and the octave you play in.
 
 Most of the scene buttons have alternate functions when you hold them
-long (0.5 sec) :  
-- undo : a long press will perform a redo !  
-- stop : a long press will DELETE currently selected clip. No worries
+long (0.5 sec):  
+- undo: a long press will perform a redo !  
+- stop: a long press will DELETE currently selected clip. No worries
 this is undoable !  
-- solo : a long press on solo will enable/disable the selected track.  
-- arm : holding arm for more than 0.5 seconds will toggle live's
+- solo: a long press on solo will enable/disable the selected track.  
+- arm: holding arm for more than 0.5 seconds will toggle live's
 metronome. A very long press (2 sec) will alternate between auto arm of
 track and manual track arming. Colour of the button will reflect the
 selected mode. This is really useful if you have more than one
 controller/person interacting with Live.
 
 prev scene
-
-</div>
-
-</div>
 
 next scene
 
@@ -126,201 +108,39 @@ next track
 
 Session mode
 
-user 1 Inst.
+user 1 Inst.
 
-user 2 step
+user 2 step
 
 mixer mode
 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-<div class="note">
-
 enter scale edition mode
-
-</div>
 
 scale
 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-<div class="note">
-
 undo. long press to redo
-
-</div>
 
 undo
 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-<div class="note">
-
-</div>
-
 octave up
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-<div class="note">
-
-</div>
 
 octave down
 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-<div class="note">
-
 stop selected clip
-
-</div>
 
 stop
 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-<div class="note">
-
 start selected clip
-
-</div>
 
 start
 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-<div class="note">
-
 solo current track
-
-</div>
 
 solo
 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-<div class="note">
-
 session record
 
-</div>
-
 overdub
-
-<div class="section">
 
 #### scale edition mode
 
@@ -329,8 +149,6 @@ button from Instrument mode.
 
 prev scene
 
-</div>
-
 next scene
 
 prev track
@@ -339,9 +157,9 @@ next track
 
 Session mode
 
-user 1 Inst.
+user 1 Inst.
 
-user 2 step
+user 2 step
 
 mixer mode
 
@@ -361,11 +179,7 @@ chromatic
 
 drumrack
 
-<div class="note">
-
 enter scale edition mode
-
-</div>
 
 scale
 
@@ -389,8 +203,6 @@ quick scale mode
 
 undo. long press to redo
 
-</div>
-
 undo
 
 C
@@ -408,10 +220,6 @@ A
 B
 
 5th right
-
-<div class="note">
-
-</div>
 
 octave up
 
@@ -431,10 +239,6 @@ octave up
 
 5
 
-<div class="note">
-
-</div>
-
 octave down
 
 Major
@@ -453,11 +257,7 @@ Locrian
 
 Diminish.
 
-<div class="note">
-
 stop selected clip
-
-</div>
 
 stop
 
@@ -477,11 +277,7 @@ Melodic Minor
 
 Super Locrian
 
-<div class="note">
-
 start selected clip
-
-</div>
 
 start
 
@@ -501,11 +297,7 @@ Kumoi
 
 Pelog
 
-<div class="note">
-
 solo current track
-
-</div>
 
 solo
 
@@ -513,23 +305,7 @@ Spanish
 
 IonEol
 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-<div class="note">
-
 session record
-
-</div>
 
 overdub
 
@@ -621,7 +397,6 @@ notification and therefore Launchpad95 might stop working, but i am
 trying to keep up and the changes.  
 if Launchpad95 stopped worked after an update, make sure to download the
 last version from this site.  
-  
 
 3\. Where should I put the script (for live 10 & 11)?  
 From Live Browser, head to your "User Library". and create a folder
@@ -631,13 +406,13 @@ Copy the Launchpad95 folder there.
 <img src="setup-folders.png" style="margin:10px" />
 
 4\. Where should I put the script (for live 9)?  
-On pc/windows 7 : inside
-"C:\ProgramData\Ableton\Live 9 Suite\Resources\MIDI Remote Scripts"  
+On pc/windows 7: inside
+"C:\ProgramData\Ableton\Live 9 Suite\Resources\MIDI Remote Scripts"  
 On a mac right-click the Live application you use (there might more than
 one installed!) and select "view package content", then browse to
-"App-Resources/MIDI Remote Scripts".  
+"App-Resources/MIDI Remote Scripts".  
   
-Inside this "MIDI Remote Scripts" folder, you should have a folder
+Inside this "MIDI Remote Scripts" folder, you should have a folder
 called "Launchpad95". inside this folder you should have a bunch of .py
 files, and a for each of them a .pyc file. (.pyc files are compiled
 version of the .py that live compiles as you start it.)  
@@ -648,13 +423,12 @@ screenshots.
 <img src="setup-folders-9.png" style="margin:10px" />  
 - on a pc like that:
 <img src="setup-folder-9-win.png" style="margin:10px" />  
-  
 
 5\. It does not work, I installed everything, but the launchpad does not light up when I select Launchpad95 in the dropdown in the preferences. what is wrong ?  
 It is hard to guess what you did wrong. You must have installed not the
 right way somehow. Try to install it from scratch again, download from
 this site, extract install, restart live. Among the list of things you
-can try to do :
+can try to do:
 
 - \- check the you installed at the right place. (check [question
   \#3](#faq-3) and [question \#4](#faq-4) !)
@@ -664,16 +438,12 @@ can try to do :
 - \- are you running live 9.2 or greater ? for live 8 please use
   launchpad85. For live 9.0, upgrade to live 9.2+.
 
-  
-
 6\. It does not work, I installed everything, but Launchpad95 does not appears the dropdown in the preferences. what is wrong ?  
 See [question 5](#faq-5).  
   
-
 7\. Note Feedback is not working in Instrument Controller  
 Make sure you activated the launchapd midi in/out as "track" in Live
 midi preferences.  
-  
 
 8\. Live 8 ?  
 For Live 8.4: [Launchpad85](launchpad85.html).
@@ -684,18 +454,12 @@ now supported ! thank you for this.
 [paypal](https://www.paypal.com/us/cgi-bin/webscr?cmd=_send-money&nav=1&email=hdavid@mail.com)
 to my account hdavid@mail.com.
 
-<div class="section">
-
 ## Known Issues
 
 - in live 9, moving notes in clip editor while stepseq is open
   duplicates notes.
 - [Launchpad85](launchpad85.html) for live 8 is now longer
   maintained/improved.
-
-</div>
-
-<div class="section">
 
 ## History
 
@@ -735,8 +499,8 @@ to my account hdavid@mail.com.
 - 2014-07-14 - change: double pressing mute button in stepseq holds
   shift.
 - 2014-06-11 - fix: compatibility fix for live 9.1.3b8. should be
-  backward compatible with 9.1.2 fix : minor fixes
-- 2014-04-30 - add: m4l OSD/helper. fix : minor fixes in step seq. fix :
+  backward compatible with 9.1.2 fix: minor fixes
+- 2014-04-30 - add: m4l OSD/helper. fix: minor fixes in step seq. fix:
   uniformise scale edition and quick scale
 - 2014-03-28 - fix: bugs while in drumrack mode. fix session scene not
   working while exiting user mode 1. add: relative scale to quick
@@ -745,13 +509,13 @@ to my account hdavid@mail.com.
   channels for some modes. add: duplicate clip in step seq (hold lock
   button for 0.5sec).
 - 2014-02-27 - major update !  
-      - new melodic step seq !  
-      - preview of notes in combined step seq (hold 7th scene button and
+      - new melodic step seq !  
+      - preview of notes in combined step seq (hold 7th scene button and
   play on the note selector in the lower left corner of the matrix)  
-      - quick scale in instrument mode to quickly change scale while
+      - quick scale in instrument mode to quickly change scale while
   playing  
-      - compatibility with live 9.1.1 and 9.1.2 or above.  
-      - various bugs fixes and improvements.
+      - compatibility with live 9.1.1 and 9.1.2 or above.  
+      - various bugs fixes and improvements.
 - 2014-01-06 - add: diatonic 3rd and sequent and guitar chromatic modes.
   fix: implicit arm. change: updated documentation
 - 2014-01-06 - fix: track locking in step seq
@@ -790,14 +554,14 @@ to my account hdavid@mail.com.
 - 2013-05-04 - add: long press on solo to mute/unmute track in
   instrument mode. fix: disable implicit arm while leaving instrument
   mode.
-- 2013-04-13 - change : changed some buttons in instrument mode. support
+- 2013-04-13 - change: changed some buttons in instrument mode. support
   for implicit arm.
-- 2013-04-13 - add : support for Instrument mode
-- 2013-03-13 - fix : fix loop length dec button
-- 2013-03-05 - add : Launchpad95 to support Live 9
-- 2012-10-21 - change : while extending midi clip, clone existing notes
+- 2013-04-13 - add: support for Instrument mode
+- 2013-03-13 - fix: fix loop length dec button
+- 2013-03-05 - add: Launchpad95 to support Live 9
+- 2012-10-21 - change: while extending midi clip, clone existing notes
   in the newly created portion
-- 2012-02-02 - change : fixed midi channels for step sequencer and
+- 2012-02-02 - change: fixed midi channels for step sequencer and
   device controller to avoid conflicts
 - 2012-01-22 - add: up/down per octave paging in step sequencer (press
   and hold mute and press navigation keys) fix:scrolling boundaries
@@ -810,7 +574,7 @@ to my account hdavid@mail.com.
 - 2012-01-02 - bug fix: improve button response time in step sequencer
   (was causing problem while pressing multiple buttons at once)
 - 2011-12-31 - bug fix: loops longer than 8 blocks were not supported.
-  add : scale marked in step sequencer marking C (3 amber blocks) and A
+  add: scale marked in step sequencer marking C (3 amber blocks) and A
   (one amber block)
 - 2011-12-29 - bug fix: some buttons not responding correctly in user
   mode 1
@@ -824,13 +588,7 @@ to my account hdavid@mail.com.
 - 2011-07-22 - first public version
 - 2011-05 - working on an initial version
 
-</div>
-
 ## Contact
 
 feel free to [contact me](/contact.html) for any suggestions and bug
 reports.
-
-[back](..)
-
-<a href="#" onclick="javascript:toggle();return(false)">_</a>
