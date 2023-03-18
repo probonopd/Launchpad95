@@ -184,6 +184,107 @@ In this mode you can activate and configure note repeat.
 |Swing +2.5%|Swing -2.5%|Swing 0%|Swing 25%|Swing 50%|Swing 75%|Repeat On/Off|Scale / mode toggle|__enter scale edition mode__|
 |1/4|1/4T|1/8|1/8T|1/16|1/16T|1/32|1/32T|__undo. long press to redo__|
 
+### Drum Step Sequencer Mode
+
+To activate the Drum Step Sequencer, select a midi clip in the clip view. Then press User Mode 2 button once, activating the step sequencer (in normal mode). Press user mode 2 button once more opens the Melodic step sequencer.
+
+This sequencer has two sub modes detailed below. combined and multinotes. (note there is a second step sequencer, melodic step sequencer detailed further down).
+
+A playback/metronome indicator is scrolling thru the grid in amber to indicate the playing position of the clip as the clip is playing. This is just an overlay, it does not affect the functionality of the buttons.
+
+Here are the colour codes used :
+* Normal notes are shown in Green, intensity depending on their velocity.
+* Muted notes are displayed in red.
+* Notes being currently played are flashing in red.
+* Notes being played and being outside of the currently displaying midi clip block will also flash in red.
+Some other information is displayed, using orange colour :
+*  Note markers help to better visualise what row correspond to which note:
+     * Root note of the selected are marked with three orange left buttons lit up.
+     * Other notes of the scale are marked with one orange button lit on the left-most row.
+* While scrolling left and right along the clip, a vertical bar will display you where you are in the clip
+
+A summary of functions assigned to the buttons is shown in the table below. Hover your mouse above a button to get detailed descriptions.
+
+StepSeq by default works in combined mode. pressing the 4th scene button toggles between combined mode and multi note mode. Multinote mode works in similarly to the the previous step in launchpad85, while combined mode offers mode close to the way Push StepSeq behaves.
+
+#### Combined Mode
+
+The bottom left area let you select the note currently being edited on the top note editor.
+
+The bottom right area allows you the select the currently clip part currently being displayed (single button press) and edited (double press or one button after the other).
+
+Some buttons have combined function:
+
+* Lock (2nd scene button):
+  * Press long to switch between clip lock and play clip on locked track mode
+  * Yellow : track lock mode. step sequencer is locked to current track and will follow playing clip on this track
+  * Red : step sequencer is locked to current clip.
+* Quantize (3rd scene button):
+  * Press long duplicate clip in a new clip
+* Mute (last scene button):
+  * Hold mute button and click on a note to mute it
+  * Hold mute button and press on a note in the bottom left quadrant to mute it
+  * Hold mute button and select a loop range in the loop selector to delete it
+* Velocity (7th scene button):
+  * Hold velocity button and click on a note to change its velocity
+  * Hold velocity button and click on a note to change in the note selector to ear a preview of the sound
+  * Hold velocity button and select a loop range in the loop selector to extend the original clip content to the newly selected length
+* Velocity (7th scene button) and mute
+  * Hold velocity button and mute button at the same time and select a loop range in the loop selector in order to mute this time selection
+
+|prev scene|next scene|prev track|next track|Session mode|user 1 Inst.|user 2 step|mixer mode|   |
+|---|---|---|---|---|---|---|---|---|
+|   |   |   |   |   |   |   |   |__Scale__: Display Scale Selection Overlay|
+|   |   |   |   |   |   |   |   |__Lock__: Lock step seq to current clip (very useful !).|
+|   |   |   |   |   |   |   |   |__Quant.__: Cycle thru available quantisations|
+|   |   |   |   |   |   |   |   |__Modes__: Switches between combined and multinote modes|
+|   |   |   |   |   |   |   |   |__Up__: Scroll up (notes)|
+|   |   |   |   |   |   |   |   |__Down__: Scroll down (notes)|
+|   |   |   |   |   |   |   |   |__Velocity__: Cycle thru velocities and velocity shift notes|
+|   |   |   |   |   |   |   |   |__Mute__: Hold and press a note in the matrix to (un)mute it.
+hold and press a note in the note selector to mute a lane
+hold+nav keys to scroll up/down one octave|
+
+* __user 2 step__: Cycle thru StepSequencers and User Mode 2
+
+#### Multinote Mode
+
+To activate this mode, press the 4th scene button while in Combined Mode (pressing the same button again will take you back to Combined Mode).
+
+This mode uses the grid as a 8*8 matrix. one midi note per row. It follows the scale mode selected. Note that the left and right arrows are used to navigate left and right in the clip.
+
+Buttons as above, plus:
+* __user 2 step__: Cycle thru StepSequencers and User Mode 2
+* __prev scene__: Select prev scene
+* __next scene__: Select next scene
+* __prev page__: Select prev clip page
+* __next page__: Select next clip page
+
+### Melodic StepSequencer
+
+To activate this mode, press user mode 2 button until it turns green.
+
+This mode behave more how a hardware stepsequencer works. it uses the grid as a 7*8 matrix to edit note pitch, velocity, length and octave. one function per page. of course notes pitches follow the selected scale !
+
+The last row of the matrix acts as a page selector and work in the similar fashion to the combined step stequencer loop selector.
+
+Double press on the last scene button toggles between monophonic and polyphonic modes.
+
+|prev scene|next scene|prev track|next track|Session mode|user 1 Inst.|user 2 step|mixer mode|   |
+|---|---|---|---|---|---|---|---|---|
+|   |   |   |   |   |   |   |   |__Scale__: Display Scale Selection Overlay|
+|   |   |   |   |   |   |   |   |__Lock__: Lock step seq to current clip (very useful !).|
+|   |   |   |   |   |   |   |   |__Quant.__: Cycle thru available quantisations|
+|   |   |   |   |   |   |   |   |__Random__: randomise the selected function (pitch,length,velocity,octave)|
+|   |   |   |   |   |   |   |   |__Length__|
+|   |   |   |   |   |   |   |   |__Octave__|
+|   |   |   |   |   |   |   |   |__Velocity__|
+|   |   |   |   |   |   |   |   |__Notes__|
+
+* __prev scene__: Select prev scene
+* __next scene__: Select next scene
+* __user 2 step__: Cycle thru StepSequencers and User Mode 2
+
 ### Editing parameters 
 
 * __On/Off parameters__:
