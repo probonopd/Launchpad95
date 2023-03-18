@@ -98,16 +98,16 @@ track and manual track arming. Colour of the button will reflect the
 selected mode. This is really useful if you have more than one
 controller/person interacting with Live.
 
-|prev scene|next scene|prev track|next track|Session mode|user 1 Inst.|user 2 step|mixer mode|   |
+|![](https://placehold.co/64x64?text=^)<br>prev scene|![](https://placehold.co/64x64?text=V)<br>next scene|![](https://placehold.co/64x64?text=<)<br>prev track|![](https://placehold.co/64x64?text=>)<br>next track|![](https://placehold.co/64x64?text=Session)<br>Session mode|![](https://placehold.co/64x64?text=Note)<br>user 1 Inst.|![](https://placehold.co/64x64?text=Custom)<br>user 2 step|![](https://placehold.co/64x64?text=Capture+MIDI)<br>mixer mode|   |
 |---|---|---|---|---|---|---|---|---|
-|   |   |   |   |   |   |   |   |__enter scale edition mode__|
-|   |   |   |   |   |   |   |   |__undo. long press to redo__|
-|   |   |   |   |   |   |   |   |__octave up__|
-|   |   |   |   |   |   |   |   |__octave down__|
-|   |   |   |   |   |   |   |   |__stop selected clip__|
-|   |   |   |   |   |   |   |   |__start selected clip__|
-|   |   |   |   |   |   |   |   |__solo current track__|
-|   |   |   |   |   |   |   |   |__session record__|
+|   |   |   |   |   |   |   |   |![](https://placehold.co/64x64?text=>+Volume)<br>__enter scale edition mode__|
+|   |   |   |   |   |   |   |   |![](https://placehold.co/64x64?text=>+Pan)<br>__undo. long press to redo__|
+|   |   |   |   |   |   |   |   |![](https://placehold.co/64x64?text=>+Send+A)<br>__octave up__|
+|   |   |   |   |   |   |   |   |![](https://placehold.co/64x64?text=>+Send+B)<br>__octave down__|
+|   |   |   |   |   |   |   |   |![](https://placehold.co/64x64?text=>+Stop+Clip)<br>__stop selected clip__|
+|   |   |   |   |   |   |   |   |![](https://placehold.co/64x64?text=>+Mute)<br>__start selected clip__|
+|   |   |   |   |   |   |   |   |![](https://placehold.co/64x64?text=>+Solo)<br>__solo current track__|
+|   |   |   |   |   |   |   |   |![](https://placehold.co/64x64?text=>+Record+Arm)<br>__session record__|
 
 #### Scale edition mode
 
