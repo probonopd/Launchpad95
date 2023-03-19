@@ -336,6 +336,10 @@ You can save up to 4 devices using the 4 bottom scene button. if not device is s
 |   |   |   |   |   |   |   |   |__Lock3__|
 |   |   |   |   |   |   |   |   |__Lock4__|
 
+#### Mapping parameters from plugins
+
+By default, only built-in instruments and effects have their parameters mapped. For instrument and effect plugins, one can map parameters as shown [here](https://www.youtube-nocookie.com/embed/al6jAyaIN6s). Toggle between Instrument Mode and Device Controller Mode for the new controls to show up.
+
 ### Session Mode
 
 To enter Session Mode, press ![](https://placehold.co/64x64/black/green?text=Session) once. The buttons on the right-hand side remain dark.
@@ -597,6 +601,8 @@ to my account hdavid@mail.com.
 1. How to change pressure sensitivity?
 
 1. How to use the Capture MIDI function? Would be nice to have this on the actual Capture MIDI ![](https://placehold.co/64x64/black/turquoise?text=Capture+MIDI) button on a long press as shown [here](https://www.youtube-nocookie.com/embed/T8QdLsXXc60). Optionally, move Mixer mode to the Session/Mixer button as the third layer (in addition to Scene Mode and Pro Scene Mode) instead. Or even just have Pro Scene Mode and Mixer Mode there. As a workaround, use the computer keyboard (Ctrl / ⌘ + Shift + C).
+
+1. Can Launchpad95 be modified so that as soon as one maps parameters from plugins as shown [here](https://www.youtube-nocookie.com/embed/al6jAyaIN6s), the respective controls light up on the Launchpad, just like on the Push 2? (Currently one has to toggle between Instrument Mode and Device Controller Mode for the new controls to show up.)
 
 ## Known Issues
 
