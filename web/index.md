@@ -596,7 +596,7 @@ to my account hdavid@mail.com.
 
 1. How to change pressure sensitivity?
 
-1. How to use the Capture MIDI function? (Ctrl / ⌘ + Shift + C). Would be nice to have this on the actual Capture MIDI ![](https://placehold.co/64x64/black/turquoise?text=Capture+MIDI) button, and move Mixer mode to the Session/Mixer button as the third layer (in addition to Scene Mode and Pro Scene Mode) instead. Or even just have Pro Scene Mode and Mixer Mode there.
+1. How to use the Capture MIDI function? Would be nice to have this on the actual Capture MIDI ![](https://placehold.co/64x64/black/turquoise?text=Capture+MIDI) button on a long press as shown [here](https://www.youtube-nocookie.com/embed/T8QdLsXXc60). Optionally, move Mixer mode to the Session/Mixer button as the third layer (in addition to Scene Mode and Pro Scene Mode) instead. Or even just have Pro Scene Mode and Mixer Mode there. As a workaround, use the computer keyboard (Ctrl / ⌘ + Shift + C).
 
 ## Known Issues
 
