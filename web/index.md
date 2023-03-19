@@ -592,6 +592,10 @@ to my account hdavid@mail.com.
 
 1. Ableton Live 11 introduced support for MIDI Polyphonic Expression (MPE). However, at this point, Launchpad95 does not support MPE. Is it still possible to use [Polyphonic aftertouch like on the Push](https://www.youtube-nocookie.com/embed/m2KW_yahgYE)?
 
+1. How to change LED brightness?
+
+1. How to change pressure sensitivity?
+
 ## Known Issues
 
 - in live 9, moving notes in clip editor while stepseq is open
