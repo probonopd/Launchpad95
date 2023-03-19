@@ -7,15 +7,13 @@ Controller and Device Controller and an improved Instrument Mode. It
 does not require any external tool like Max for Live (M4L) in order to
 work. This script is just a plain Live Control Surface Python Script.
 
-> __Note__: Launchpad95 derives from Ableton Live 9.2 scripts. Would it be beneficial to recreate this from Ableton Live 11 scripts for RGB Launchpad and/or Push models, to get a more native user experience (e.g., matching what is printed on the buttons more to the functions performed by the software)?
-
 ## Installation
 
 ### Supported Hardware and Software
 
 Ableton Live 9.2 or greater, 10 and 11 are supported.
 
-> __Note__: Ableton Live 11 introduced support for MIDI Polyphonic Expression (MPE). However, at this point, Launchpad95 does not support MPE. Is it still possible to use [Polyphonic aftertouch like on the Push](https://www.youtube-nocookie.com/embed/m2KW_yahgYE)?
+> __Note__: Ableton Live 11 introduced support for MIDI Polyphonic Expression (MPE). However, at this point, Launchpad95 does not support MPE. To use MPE, you need to open up the preferences panel and go to "MIDI Sync" panel. Temporarily select your Launchpad model rather than "Launchpad95" as your control surface. This will temporarily disable all Launchpad95 functionality but will allow you to use MPE.
 
 In terms of hardware the following are supported:
 
@@ -587,6 +585,12 @@ Sure! Your donations allowed me to pay for the Launchpad Pro that is
 now supported! thank you for this.  
 [paypal](https://www.paypal.com/us/cgi-bin/webscr?cmd=_send-money&nav=1&email=hdavid@mail.com)
 to my account hdavid@mail.com.
+
+## Questions to be answered
+
+1. Launchpad95 derives from Ableton Live 9.2 scripts. Would it be beneficial to recreate this from Ableton Live 11 scripts for RGB Launchpad and/or Push models, to get a more native user experience (e.g., matching what is printed on the buttons more to the functions performed by the software)?
+
+1. Ableton Live 11 introduced support for MIDI Polyphonic Expression (MPE). However, at this point, Launchpad95 does not support MPE. Is it still possible to use [Polyphonic aftertouch like on the Push](https://www.youtube-nocookie.com/embed/m2KW_yahgYE)?
 
 ## Known Issues
 
