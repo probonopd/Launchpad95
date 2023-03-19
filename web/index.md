@@ -349,11 +349,9 @@ To enter Session Mode, press ![](https://placehold.co/64x64/black/green?text=Ses
 |   |   |   |   |   |   |   |   |![](https://placehold.co/64x64/black/white?text=>)|
 |   |   |   |   |   |   |   |   |![](https://placehold.co/64x64/black/white?text=>)|
 |   |   |   |   |   |   |   |   |![](https://placehold.co/64x64/black/white?text=>)|
+|   |   | |   |![](https://placehold.co/64x64/black/white?text=>)|
 |   |   |   |   |   |   |   |   |![](https://placehold.co/64x64/black/white?text=>)|
-|   |   |   |   |   |   |   |   |![](https://placehold.co/64x64/black/white?text=>)|
-|   |   |   |   |   |   |   |   |![](https://placehold.co/64x64/black/white?text=>)|
-|   |   |   |   |   |   |   |   |![](https://placehold.co/64x64/black/white?text=>)|
-|   |   |   |   |   |   |   |   |![](https://placehold.co/64x64/black/white?text=>)|
+|   |   | |   |![](https://placehold.co/64x64/black/white?text=>)|
 
 By defaut, there are 8 rows per track in Ableton Live. But the 8th row on the Launchpad contains the Stop button. So it may be necessary to scroll down using the ![](https://placehold.co/64x64/black/green?text=V) button to get to the 8th row of clips.
 
@@ -600,9 +598,11 @@ to my account hdavid@mail.com.
 
 1. How to change pressure sensitivity?
 
-1. How to use the Capture MIDI function? Would be nice to have this on the actual Capture MIDI ![](https://placehold.co/64x64/black/turquoise?text=Capture+MIDI) button on a long press as shown [here](https://www.youtube-nocookie.com/embed/T8QdLsXXc60). Optionally, move Mixer mode to the Session/Mixer button as the third layer (in addition to Scene Mode and Pro Scene Mode) instead. Or even just have Pro Scene Mode and Mixer Mode there. As a workaround, use the computer keyboard (Ctrl / ⌘ + Shift + C).
+1. How to use the Capture MIDI function? Would be nice to have this on the actual Capture MIDI ![](https://placehold.co/64x64/black/turquoise?text=Capture+MIDI) button on a long press as shown [here](https://www.youtube-nocookie.com/embed/T8QdLsXXc60). As a workaround, use the computer keyboard (Ctrl / ⌘ + Shift + C).
 
-1. Can Launchpad95 be modified so that as soon as one maps parameters from plugins as shown [here](https://www.youtube-nocookie.com/embed/al6jAyaIN6s), the respective controls light up on the Launchpad, just like on the Push 2? (Currently one has to toggle between Instrument Mode and Device Controller Mode for the new controls to show up.)
+1. Can Mixer mode be moved to the Session/Mixer button as the second layer (in addition to Pro Scene Mode, but without the Scene Mode)? This way the Mixer Mode would be on the button that is physically labeled "Session/Mixer".
+
+3. Can Launchpad95 be modified so that as soon as one maps parameters from plugins as shown [here](https://www.youtube-nocookie.com/embed/al6jAyaIN6s), the respective controls light up on the Launchpad, just like on the Push 2? (Currently one has to toggle between Instrument Mode and Device Controller Mode for the new controls to show up.)
 
 ## Known Issues
 
