@@ -596,6 +596,8 @@ to my account hdavid@mail.com.
 
 1. How to change pressure sensitivity?
 
+1. How to use the Capture MIDI function? (Ctrl / ⌘ + Shift + C). Would be nice to have this on the actual Capture MIDI ![](https://placehold.co/64x64/black/turquoise?text=Capture+MIDI) button, and move Mixer mode to the Session/Mixer button as the third layer (in addition to Scene Mode and Pro Scene Mode) instead. Or even just have Pro Scene Mode and Mixer Mode there.
+
 ## Known Issues
 
 - in live 9, moving notes in clip editor while stepseq is open
