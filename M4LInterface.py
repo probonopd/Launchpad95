@@ -1,5 +1,9 @@
 from _Framework.ControlSurfaceComponent import ControlSurfaceComponent
 
+import logging
+logger = logging.getLogger(__name__)
+
+
 class M4LInterface(ControlSurfaceComponent):
 
 	def __init__(self):
@@ -52,3 +56,5 @@ class M4LInterface(ControlSurfaceComponent):
 	def update(self, args=None):
 		if self.updateML_has_listener(None):
 			self._updateML_listener()
+		logger.info("attribute_names: %s" % self.attribute_names)
+		logger.info("attributes:      %s" % self.attributes)

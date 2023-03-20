@@ -19,6 +19,9 @@ try:
 except NameError:
     xrange = range
 
+import logging
+logger = logging.getLogger(__name__)
+
 DO_COMBINE = Live.Application.combine_apcs()  # requires 8.2 & higher
 
 
@@ -366,3 +369,7 @@ class Launchpad(ControlSurface):
 		self._note_repeat = NoteRepeatComponent(name='Note_Repeat')
 		self._note_repeat.set_enabled(False)
 		self._note_repeat.set_note_repeat(self._c_instance.note_repeat)
+
+	def show_message(self, message):
+		logger.info("message: %s", message)
+		ControlSurface.show_message(self, message)
