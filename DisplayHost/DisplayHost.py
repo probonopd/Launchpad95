@@ -22,6 +22,7 @@ import serial.tools.list_ports
 import time
 import os
 import threading
+import atexit
 
 # Define the path to the log file
 log_file_path = "/usr/home/user/.wine/drive_c/users/steamuser/AppData/Roaming/Ableton/Live 11.2.6/Preferences/Log.txt"
@@ -63,10 +64,19 @@ class SerialDisplay:
         content = content[:-2]  # Remove the last comma and space
         self.print(content)
 
+    def close(self):
+        print("Exiting...")
+        self.print(" ")
+        time.sleep(0.2)
+        if self.port is not None:
+            self.port.close()
+
 
 if __name__ == '__main__':
 
     display = SerialDisplay()
+
+    atexit.register(display.close)
 
     if display.port is None:
         print("No serial port available")
