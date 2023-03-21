@@ -27,7 +27,6 @@ WIDTH = 128
 HEIGHT = 64
 
 # Initialize the display
-
 i2c = busio.I2C(board.GP3, board.GP2, frequency=400000)
 display_bus = displayio.I2CDisplay(i2c, device_address=0x3c)
 display = adafruit_displayio_ssd1306.SSD1306(
@@ -37,17 +36,17 @@ display = adafruit_displayio_ssd1306.SSD1306(
 splash = displayio.Group()
 display.show(splash)
 
-####
-
+# Create the color bitmap and palette
 color_bitmap = displayio.Bitmap(WIDTH, HEIGHT, 1)
 color_palette = displayio.Palette(1)
 color_palette[0] = 0xFFFFFF  # White
 
+# Create the background sprite
 bg_sprite = displayio.TileGrid(
     color_bitmap, pixel_shader=color_palette, x=0, y=0)
 splash.append(bg_sprite)
 
-# Draw a smaller inner rectangle in black
+# Create the inner rectangle sprite
 BORDER = 2
 inner_bitmap = displayio.Bitmap(WIDTH - BORDER * 2, HEIGHT - BORDER * 2, 1)
 inner_palette = displayio.Palette(1)
@@ -63,6 +62,7 @@ serial = usb_cdc.data
 in_data = bytearray()
 
 text_areas = []
+text_area_index = 0
 
 while True:
     # Check for incoming data
@@ -72,31 +72,35 @@ while True:
             print(in_data.decode("utf-8"))
             out_data = in_data
             in_data = bytearray()
-            # Clear screen
-            bg_sprite = displayio.TileGrid(
-                color_bitmap, pixel_shader=inner_palette, x=0, y=0)
-            splash.append(bg_sprite)
-            # Move cursor to top left
+
+            # Clear the background sprite
+            for i in range(len(bg_sprite)):
+                bg_sprite[i] = 0
 
             # Remove existing text areas
             for text_area in text_areas:
                 splash.remove(text_area)
             text_areas = []
-            # Draw a label
+            text_area_index = 0
+
+            # Draw the text
             text = out_data.decode("utf-8").strip()
             # Split text into up to 6 lines with 20 characters each
-            lines = []
             lines = [text[i:i+20] for i in range(0, len(text), 20)]
-            print(lines)
-            i = 0
             y = 5
             for line in lines:
-                text_area = label.Label(
-                    terminalio.FONT, text=line, color=0xFFFFFF, x=0, y=y
-                )
-                i = i+1
-                y = y+10
+                if text_area_index < len(text_areas):
+                    # Reuse an existing text area
+                    text_area = text_areas[text_area_index]
+                else:
+                    # Create a new text area
+                    text_area = label.Label(
+                        terminalio.FONT, text=line, color=0xFFFFFF, x=0, y=y
+                    )
+                    text_areas.append(text_area)
                 splash.append(text_area)
-                text_areas.append(text_area)
+                text_area.text = line
+                text_area_index += 1
+                y += 10
         else:
             in_data += byte
