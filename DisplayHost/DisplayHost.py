@@ -21,6 +21,7 @@ has the following advantages:
 import serial.tools.list_ports
 import time
 import os
+import threading
 
 # Define the path to the log file
 log_file_path = "/usr/home/user/.wine/drive_c/users/steamuser/AppData/Roaming/Ableton/Live 11.2.6/Preferences/Log.txt"
@@ -32,8 +33,8 @@ class SerialDisplay:
         self.attributes = []
         self.attribute_names = []
         self.message = ""
-        self.last_output_content = ""
         self.port = None
+        self.timer = None
         for port in serial.tools.list_ports.comports():
             print("Found port: %s" % port.device)
             # Unbuffered serial port
@@ -41,14 +42,18 @@ class SerialDisplay:
 
     def print(self, text):
         if self.port is not None:
-            print("Printing: %s" % text)
             text_bytes = text.encode('utf-8')
             self.port.write(text_bytes + b'\r\n')
 
+    def output_message(self):
+        self.print(display.message)
+        if self.timer is not None and self.timer.is_alive():
+            self.timer.cancel()
+        self.timer = threading.Timer(3.0, self.output)
+        self.timer.start()
+
     def output(self):
-        content = self.message.replace(" MODE", "")  # Saves a line
-        # Pad to the next multiple of 20 chars
-        content = content + " " * (20 - (len(content) % 20))
+        content = ""
         for i in range(0, len(self.attributes)):
             try:
                 content = content + self.attribute_names[i] + \
@@ -56,10 +61,7 @@ class SerialDisplay:
             except IndexError:
                 pass
         content = content[:-2]  # Remove the last comma and space
-
-        if content != self.last_output_content:
-            self.print(content)
-            self.last_output_content = content
+        self.print(content)
 
 
 if __name__ == '__main__':
@@ -96,15 +98,14 @@ if __name__ == '__main__':
                 for line in new_lines:
                     if line.strip() == "":
                         continue
-                    print("-> " + line)
+                    # print("-> " + line)
 
                     if "message:" in line:
                         message = line.split("message: ")[1].strip()
-                        if message.lower() != display.message.lower():
-                            # print("--> " + message)
-                            # display.print(message)
-                            display.message = message
-                            display.output()
+                        # print("--> " + message)
+                        # display.print(message)
+                        display.message = message
+                        display.output_message()
 
                     if "attributes:" in line:
                         attributes = line.split("attributes:")[1].strip()
@@ -118,7 +119,9 @@ if __name__ == '__main__':
                         attributes = [attribute for attribute in attributes
                                       if attribute != ""]
                         display.attributes = attributes
-                        display.output()
+                        # If the timer is not running, print the attributes
+                        if display.timer is None or not display.timer.is_alive():
+                            display.output()
 
                     if "attribute_names:" in line:
                         attribute_names = line.split(
